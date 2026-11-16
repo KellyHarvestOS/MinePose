@@ -1,0 +1,6 @@
+Minecraft Java Edition 1.21.5
+Banner textures from the official Mojang client archive.
+Copyright Mojang AB / Microsoft.
+Source: https://piston-data.mojang.com/v1/objects/b88808bbb3da8d9f453694b5d8f74a3396f1a533/client.jar
+SHA-1: b88808bbb3da8d9f453694b5d8f74a3396f1a533
+Only banner texture PNG files were extracted; the client archive is not executed or retained.

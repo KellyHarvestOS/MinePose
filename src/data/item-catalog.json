@@ -1,0 +1,3614 @@
+[
+  {
+    "id": "diamond_sword",
+    "name": "Алмазный меч",
+    "category": "diamond",
+    "model": "/minecraft/models/diamond_sword.json",
+    "icon": "/minecraft/textures/item/diamond_sword.png",
+    "keywords": [
+      "diamond sword"
+    ]
+  },
+  {
+    "id": "diamond_pickaxe",
+    "name": "Алмазная кирка",
+    "category": "diamond",
+    "model": "/minecraft/models/diamond_pickaxe.json",
+    "icon": "/minecraft/textures/item/diamond_pickaxe.png",
+    "keywords": [
+      "diamond pickaxe"
+    ]
+  },
+  {
+    "id": "diamond_axe",
+    "name": "Алмазный топор",
+    "category": "diamond",
+    "model": "/minecraft/models/diamond_axe.json",
+    "icon": "/minecraft/textures/item/diamond_axe.png",
+    "keywords": [
+      "diamond axe"
+    ]
+  },
+  {
+    "id": "diamond_shovel",
+    "name": "Алмазная лопата",
+    "category": "diamond",
+    "model": "/minecraft/models/diamond_shovel.json",
+    "icon": "/minecraft/textures/item/diamond_shovel.png",
+    "keywords": [
+      "diamond shovel"
+    ]
+  },
+  {
+    "id": "diamond_hoe",
+    "name": "Алмазная мотыга",
+    "category": "diamond",
+    "model": "/minecraft/models/diamond_hoe.json",
+    "icon": "/minecraft/textures/item/diamond_hoe.png",
+    "keywords": [
+      "diamond hoe"
+    ]
+  },
+  {
+    "id": "diamond",
+    "name": "Алмаз",
+    "category": "diamond",
+    "model": "/minecraft/models/diamond.json",
+    "icon": "/minecraft/textures/item/diamond.png",
+    "keywords": [
+      "diamond"
+    ]
+  },
+  {
+    "id": "diamond_block",
+    "name": "Алмазный блок",
+    "category": "diamond",
+    "model": "/minecraft/models/diamond_block.json",
+    "icon": "/minecraft/textures/block/diamond_block.png",
+    "keywords": [
+      "diamond block"
+    ]
+  },
+  {
+    "id": "diamond_helmet",
+    "name": "Алмазный шлем",
+    "category": "diamond",
+    "model": "/minecraft/models/diamond_helmet.json",
+    "icon": "/minecraft/textures/item/diamond_helmet.png",
+    "keywords": [
+      "diamond helmet"
+    ]
+  },
+  {
+    "id": "diamond_chestplate",
+    "name": "Алмазный нагрудник",
+    "category": "diamond",
+    "model": "/minecraft/models/diamond_chestplate.json",
+    "icon": "/minecraft/textures/item/diamond_chestplate.png",
+    "keywords": [
+      "diamond chestplate"
+    ]
+  },
+  {
+    "id": "diamond_leggings",
+    "name": "Алмазные поножи",
+    "category": "diamond",
+    "model": "/minecraft/models/diamond_leggings.json",
+    "icon": "/minecraft/textures/item/diamond_leggings.png",
+    "keywords": [
+      "diamond leggings"
+    ]
+  },
+  {
+    "id": "diamond_boots",
+    "name": "Алмазные ботинки",
+    "category": "diamond",
+    "model": "/minecraft/models/diamond_boots.json",
+    "icon": "/minecraft/textures/item/diamond_boots.png",
+    "keywords": [
+      "diamond boots"
+    ]
+  },
+  {
+    "id": "netherite_sword",
+    "name": "Незеритовый меч",
+    "category": "netherite",
+    "model": "/minecraft/models/netherite_sword.json",
+    "icon": "/minecraft/textures/item/netherite_sword.png",
+    "keywords": [
+      "netherite sword"
+    ]
+  },
+  {
+    "id": "netherite_pickaxe",
+    "name": "Незеритовая кирка",
+    "category": "netherite",
+    "model": "/minecraft/models/netherite_pickaxe.json",
+    "icon": "/minecraft/textures/item/netherite_pickaxe.png",
+    "keywords": [
+      "netherite pickaxe"
+    ]
+  },
+  {
+    "id": "netherite_axe",
+    "name": "Незеритовый топор",
+    "category": "netherite",
+    "model": "/minecraft/models/netherite_axe.json",
+    "icon": "/minecraft/textures/item/netherite_axe.png",
+    "keywords": [
+      "netherite axe"
+    ]
+  },
+  {
+    "id": "netherite_shovel",
+    "name": "Незеритовая лопата",
+    "category": "netherite",
+    "model": "/minecraft/models/netherite_shovel.json",
+    "icon": "/minecraft/textures/item/netherite_shovel.png",
+    "keywords": [
+      "netherite shovel"
+    ]
+  },
+  {
+    "id": "netherite_hoe",
+    "name": "Незеритовая мотыга",
+    "category": "netherite",
+    "model": "/minecraft/models/netherite_hoe.json",
+    "icon": "/minecraft/textures/item/netherite_hoe.png",
+    "keywords": [
+      "netherite hoe"
+    ]
+  },
+  {
+    "id": "netherite_ingot",
+    "name": "Незеритовый слиток",
+    "category": "netherite",
+    "model": "/minecraft/models/netherite_ingot.json",
+    "icon": "/minecraft/textures/item/netherite_ingot.png",
+    "keywords": [
+      "netherite ingot"
+    ]
+  },
+  {
+    "id": "netherite_scrap",
+    "name": "Незеритовый лом",
+    "category": "netherite",
+    "model": "/minecraft/models/netherite_scrap.json",
+    "icon": "/minecraft/textures/item/netherite_scrap.png",
+    "keywords": [
+      "netherite scrap"
+    ]
+  },
+  {
+    "id": "netherite_block",
+    "name": "Незеритовый блок",
+    "category": "netherite",
+    "model": "/minecraft/models/netherite_block.json",
+    "icon": "/minecraft/textures/block/netherite_block.png",
+    "keywords": [
+      "netherite block"
+    ]
+  },
+  {
+    "id": "netherite_helmet",
+    "name": "Незеритовый шлем",
+    "category": "netherite",
+    "model": "/minecraft/models/netherite_helmet.json",
+    "icon": "/minecraft/textures/item/netherite_helmet.png",
+    "keywords": [
+      "netherite helmet"
+    ]
+  },
+  {
+    "id": "netherite_chestplate",
+    "name": "Незеритовый нагрудник",
+    "category": "netherite",
+    "model": "/minecraft/models/netherite_chestplate.json",
+    "icon": "/minecraft/textures/item/netherite_chestplate.png",
+    "keywords": [
+      "netherite chestplate"
+    ]
+  },
+  {
+    "id": "netherite_leggings",
+    "name": "Незеритовые поножи",
+    "category": "netherite",
+    "model": "/minecraft/models/netherite_leggings.json",
+    "icon": "/minecraft/textures/item/netherite_leggings.png",
+    "keywords": [
+      "netherite leggings"
+    ]
+  },
+  {
+    "id": "netherite_boots",
+    "name": "Незеритовые ботинки",
+    "category": "netherite",
+    "model": "/minecraft/models/netherite_boots.json",
+    "icon": "/minecraft/textures/item/netherite_boots.png",
+    "keywords": [
+      "netherite boots"
+    ]
+  },
+  {
+    "id": "wooden_sword",
+    "name": "Деревянный меч",
+    "category": "tools",
+    "model": "/minecraft/models/wooden_sword.json",
+    "icon": "/minecraft/textures/item/wooden_sword.png",
+    "keywords": [
+      "wooden sword"
+    ]
+  },
+  {
+    "id": "wooden_pickaxe",
+    "name": "Деревянная кирка",
+    "category": "tools",
+    "model": "/minecraft/models/wooden_pickaxe.json",
+    "icon": "/minecraft/textures/item/wooden_pickaxe.png",
+    "keywords": [
+      "wooden pickaxe"
+    ]
+  },
+  {
+    "id": "wooden_axe",
+    "name": "Деревянный топор",
+    "category": "tools",
+    "model": "/minecraft/models/wooden_axe.json",
+    "icon": "/minecraft/textures/item/wooden_axe.png",
+    "keywords": [
+      "wooden axe"
+    ]
+  },
+  {
+    "id": "wooden_shovel",
+    "name": "Деревянная лопата",
+    "category": "tools",
+    "model": "/minecraft/models/wooden_shovel.json",
+    "icon": "/minecraft/textures/item/wooden_shovel.png",
+    "keywords": [
+      "wooden shovel"
+    ]
+  },
+  {
+    "id": "wooden_hoe",
+    "name": "Деревянная мотыга",
+    "category": "tools",
+    "model": "/minecraft/models/wooden_hoe.json",
+    "icon": "/minecraft/textures/item/wooden_hoe.png",
+    "keywords": [
+      "wooden hoe"
+    ]
+  },
+  {
+    "id": "stone_sword",
+    "name": "Каменный меч",
+    "category": "tools",
+    "model": "/minecraft/models/stone_sword.json",
+    "icon": "/minecraft/textures/item/stone_sword.png",
+    "keywords": [
+      "stone sword"
+    ]
+  },
+  {
+    "id": "stone_pickaxe",
+    "name": "Каменная кирка",
+    "category": "tools",
+    "model": "/minecraft/models/stone_pickaxe.json",
+    "icon": "/minecraft/textures/item/stone_pickaxe.png",
+    "keywords": [
+      "stone pickaxe"
+    ]
+  },
+  {
+    "id": "stone_axe",
+    "name": "Каменный топор",
+    "category": "tools",
+    "model": "/minecraft/models/stone_axe.json",
+    "icon": "/minecraft/textures/item/stone_axe.png",
+    "keywords": [
+      "stone axe"
+    ]
+  },
+  {
+    "id": "stone_shovel",
+    "name": "Каменная лопата",
+    "category": "tools",
+    "model": "/minecraft/models/stone_shovel.json",
+    "icon": "/minecraft/textures/item/stone_shovel.png",
+    "keywords": [
+      "stone shovel"
+    ]
+  },
+  {
+    "id": "stone_hoe",
+    "name": "Каменная мотыга",
+    "category": "tools",
+    "model": "/minecraft/models/stone_hoe.json",
+    "icon": "/minecraft/textures/item/stone_hoe.png",
+    "keywords": [
+      "stone hoe"
+    ]
+  },
+  {
+    "id": "iron_sword",
+    "name": "Железный меч",
+    "category": "tools",
+    "model": "/minecraft/models/iron_sword.json",
+    "icon": "/minecraft/textures/item/iron_sword.png",
+    "keywords": [
+      "iron sword"
+    ]
+  },
+  {
+    "id": "iron_pickaxe",
+    "name": "Железная кирка",
+    "category": "tools",
+    "model": "/minecraft/models/iron_pickaxe.json",
+    "icon": "/minecraft/textures/item/iron_pickaxe.png",
+    "keywords": [
+      "iron pickaxe"
+    ]
+  },
+  {
+    "id": "iron_axe",
+    "name": "Железный топор",
+    "category": "tools",
+    "model": "/minecraft/models/iron_axe.json",
+    "icon": "/minecraft/textures/item/iron_axe.png",
+    "keywords": [
+      "iron axe"
+    ]
+  },
+  {
+    "id": "iron_shovel",
+    "name": "Железная лопата",
+    "category": "tools",
+    "model": "/minecraft/models/iron_shovel.json",
+    "icon": "/minecraft/textures/item/iron_shovel.png",
+    "keywords": [
+      "iron shovel"
+    ]
+  },
+  {
+    "id": "iron_hoe",
+    "name": "Железная мотыга",
+    "category": "tools",
+    "model": "/minecraft/models/iron_hoe.json",
+    "icon": "/minecraft/textures/item/iron_hoe.png",
+    "keywords": [
+      "iron hoe"
+    ]
+  },
+  {
+    "id": "golden_sword",
+    "name": "Золотой меч",
+    "category": "tools",
+    "model": "/minecraft/models/golden_sword.json",
+    "icon": "/minecraft/textures/item/golden_sword.png",
+    "keywords": [
+      "golden sword",
+      "золотой"
+    ]
+  },
+  {
+    "id": "golden_pickaxe",
+    "name": "Золотая кирка",
+    "category": "tools",
+    "model": "/minecraft/models/golden_pickaxe.json",
+    "icon": "/minecraft/textures/item/golden_pickaxe.png",
+    "keywords": [
+      "golden pickaxe",
+      "золотой"
+    ]
+  },
+  {
+    "id": "golden_axe",
+    "name": "Золотой топор",
+    "category": "tools",
+    "model": "/minecraft/models/golden_axe.json",
+    "icon": "/minecraft/textures/item/golden_axe.png",
+    "keywords": [
+      "golden axe",
+      "золотой"
+    ]
+  },
+  {
+    "id": "golden_shovel",
+    "name": "Золотая лопата",
+    "category": "tools",
+    "model": "/minecraft/models/golden_shovel.json",
+    "icon": "/minecraft/textures/item/golden_shovel.png",
+    "keywords": [
+      "golden shovel",
+      "золотой"
+    ]
+  },
+  {
+    "id": "golden_hoe",
+    "name": "Золотая мотыга",
+    "category": "tools",
+    "model": "/minecraft/models/golden_hoe.json",
+    "icon": "/minecraft/textures/item/golden_hoe.png",
+    "keywords": [
+      "golden hoe",
+      "золотой"
+    ]
+  },
+  {
+    "id": "bow",
+    "name": "Лук",
+    "category": "tools",
+    "model": "/minecraft/models/bow.json",
+    "icon": "/minecraft/textures/item/bow.png",
+    "keywords": [
+      "bow"
+    ]
+  },
+  {
+    "id": "crossbow",
+    "name": "Арбалет",
+    "category": "tools",
+    "model": "/minecraft/models/crossbow.json",
+    "icon": "/minecraft/textures/item/crossbow_standby.png",
+    "keywords": [
+      "crossbow"
+    ]
+  },
+  {
+    "id": "trident",
+    "name": "Трезубец",
+    "category": "tools",
+    "model": "/minecraft/models/trident.json",
+    "icon": "/minecraft/textures/item/trident.png",
+    "keywords": [
+      "trident"
+    ]
+  },
+  {
+    "id": "mace",
+    "name": "Булава",
+    "category": "tools",
+    "model": "/minecraft/models/mace.json",
+    "icon": "/minecraft/textures/item/mace.png",
+    "keywords": [
+      "mace"
+    ]
+  },
+  {
+    "id": "shield",
+    "name": "Щит",
+    "category": "tools",
+    "model": "/minecraft/models/shield.json",
+    "icon": "/minecraft/textures/block/dark_oak_planks.png",
+    "keywords": [
+      "shield"
+    ]
+  },
+  {
+    "id": "arrow",
+    "name": "Стрела",
+    "category": "tools",
+    "model": "/minecraft/models/arrow.json",
+    "icon": "/minecraft/textures/item/arrow.png",
+    "keywords": [
+      "arrow"
+    ]
+  },
+  {
+    "id": "spectral_arrow",
+    "name": "Спектральная стрела",
+    "category": "tools",
+    "model": "/minecraft/models/spectral_arrow.json",
+    "icon": "/minecraft/textures/item/spectral_arrow.png",
+    "keywords": [
+      "spectral arrow"
+    ]
+  },
+  {
+    "id": "tipped_arrow",
+    "name": "Обработанная стрела",
+    "category": "tools",
+    "model": "/minecraft/models/tipped_arrow.json",
+    "icon": "/minecraft/textures/item/tipped_arrow_head.png",
+    "keywords": [
+      "tipped arrow"
+    ]
+  },
+  {
+    "id": "fishing_rod",
+    "name": "Удочка",
+    "category": "tools",
+    "model": "/minecraft/models/fishing_rod.json",
+    "icon": "/minecraft/textures/item/fishing_rod.png",
+    "keywords": [
+      "fishing rod"
+    ]
+  },
+  {
+    "id": "shears",
+    "name": "Ножницы",
+    "category": "tools",
+    "model": "/minecraft/models/shears.json",
+    "icon": "/minecraft/textures/item/shears.png",
+    "keywords": [
+      "shears"
+    ]
+  },
+  {
+    "id": "flint_and_steel",
+    "name": "Огниво",
+    "category": "tools",
+    "model": "/minecraft/models/flint_and_steel.json",
+    "icon": "/minecraft/textures/item/flint_and_steel.png",
+    "keywords": [
+      "flint and steel"
+    ]
+  },
+  {
+    "id": "brush",
+    "name": "Кисть",
+    "category": "tools",
+    "model": "/minecraft/models/brush.json",
+    "icon": "/minecraft/textures/item/brush.png",
+    "keywords": [
+      "brush"
+    ]
+  },
+  {
+    "id": "carrot_on_a_stick",
+    "name": "Удочка с морковкой",
+    "category": "tools",
+    "model": "/minecraft/models/carrot_on_a_stick.json",
+    "icon": "/minecraft/textures/item/carrot_on_a_stick.png",
+    "keywords": [
+      "carrot on a stick"
+    ]
+  },
+  {
+    "id": "warped_fungus_on_a_stick",
+    "name": "Удочка с искажённым грибом",
+    "category": "tools",
+    "model": "/minecraft/models/warped_fungus_on_a_stick.json",
+    "icon": "/minecraft/textures/item/warped_fungus_on_a_stick.png",
+    "keywords": [
+      "warped fungus on a stick"
+    ]
+  },
+  {
+    "id": "iron_helmet",
+    "name": "Железный шлем",
+    "category": "tools",
+    "model": "/minecraft/models/iron_helmet.json",
+    "icon": "/minecraft/textures/item/iron_helmet.png",
+    "keywords": [
+      "iron helmet"
+    ]
+  },
+  {
+    "id": "iron_chestplate",
+    "name": "Железный нагрудник",
+    "category": "tools",
+    "model": "/minecraft/models/iron_chestplate.json",
+    "icon": "/minecraft/textures/item/iron_chestplate.png",
+    "keywords": [
+      "iron chestplate"
+    ]
+  },
+  {
+    "id": "iron_leggings",
+    "name": "Железные поножи",
+    "category": "tools",
+    "model": "/minecraft/models/iron_leggings.json",
+    "icon": "/minecraft/textures/item/iron_leggings.png",
+    "keywords": [
+      "iron leggings"
+    ]
+  },
+  {
+    "id": "iron_boots",
+    "name": "Железные ботинки",
+    "category": "tools",
+    "model": "/minecraft/models/iron_boots.json",
+    "icon": "/minecraft/textures/item/iron_boots.png",
+    "keywords": [
+      "iron boots"
+    ]
+  },
+  {
+    "id": "golden_helmet",
+    "name": "Золотой шлем",
+    "category": "tools",
+    "model": "/minecraft/models/golden_helmet.json",
+    "icon": "/minecraft/textures/item/golden_helmet.png",
+    "keywords": [
+      "golden helmet",
+      "золотой"
+    ]
+  },
+  {
+    "id": "golden_chestplate",
+    "name": "Золотой нагрудник",
+    "category": "tools",
+    "model": "/minecraft/models/golden_chestplate.json",
+    "icon": "/minecraft/textures/item/golden_chestplate.png",
+    "keywords": [
+      "golden chestplate",
+      "золотой"
+    ]
+  },
+  {
+    "id": "golden_leggings",
+    "name": "Золотые поножи",
+    "category": "tools",
+    "model": "/minecraft/models/golden_leggings.json",
+    "icon": "/minecraft/textures/item/golden_leggings.png",
+    "keywords": [
+      "golden leggings",
+      "золотой"
+    ]
+  },
+  {
+    "id": "golden_boots",
+    "name": "Золотые ботинки",
+    "category": "tools",
+    "model": "/minecraft/models/golden_boots.json",
+    "icon": "/minecraft/textures/item/golden_boots.png",
+    "keywords": [
+      "golden boots",
+      "золотой"
+    ]
+  },
+  {
+    "id": "turtle_helmet",
+    "name": "Черепаший панцирь",
+    "category": "tools",
+    "model": "/minecraft/models/turtle_helmet.json",
+    "icon": "/minecraft/textures/item/turtle_helmet.png",
+    "keywords": [
+      "turtle helmet"
+    ]
+  },
+  {
+    "id": "dirt",
+    "name": "Земля",
+    "category": "blocks",
+    "model": "/minecraft/models/dirt.json",
+    "icon": "/minecraft/textures/block/dirt.png",
+    "keywords": [
+      "dirt"
+    ]
+  },
+  {
+    "id": "grass_block",
+    "name": "Дёрн",
+    "category": "blocks",
+    "model": "/minecraft/models/grass_block.json",
+    "icon": "/minecraft/textures/block/grass_block_side.png",
+    "keywords": [
+      "grass block"
+    ]
+  },
+  {
+    "id": "coarse_dirt",
+    "name": "Каменистая земля",
+    "category": "blocks",
+    "model": "/minecraft/models/coarse_dirt.json",
+    "icon": "/minecraft/textures/block/coarse_dirt.png",
+    "keywords": [
+      "coarse dirt"
+    ]
+  },
+  {
+    "id": "rooted_dirt",
+    "name": "Корнистая земля",
+    "category": "blocks",
+    "model": "/minecraft/models/rooted_dirt.json",
+    "icon": "/minecraft/textures/block/rooted_dirt.png",
+    "keywords": [
+      "rooted dirt"
+    ]
+  },
+  {
+    "id": "podzol",
+    "name": "Подзол",
+    "category": "blocks",
+    "model": "/minecraft/models/podzol.json",
+    "icon": "/minecraft/textures/block/podzol_side.png",
+    "keywords": [
+      "podzol"
+    ]
+  },
+  {
+    "id": "mycelium",
+    "name": "Мицелий",
+    "category": "blocks",
+    "model": "/minecraft/models/mycelium.json",
+    "icon": "/minecraft/textures/block/mycelium_side.png",
+    "keywords": [
+      "mycelium"
+    ]
+  },
+  {
+    "id": "mud",
+    "name": "Грязь",
+    "category": "blocks",
+    "model": "/minecraft/models/mud.json",
+    "icon": "/minecraft/textures/block/mud.png",
+    "keywords": [
+      "mud"
+    ]
+  },
+  {
+    "id": "packed_mud",
+    "name": "Плотная грязь",
+    "category": "blocks",
+    "model": "/minecraft/models/packed_mud.json",
+    "icon": "/minecraft/textures/block/packed_mud.png",
+    "keywords": [
+      "packed mud"
+    ]
+  },
+  {
+    "id": "stone",
+    "name": "Камень",
+    "category": "blocks",
+    "model": "/minecraft/models/stone.json",
+    "icon": "/minecraft/textures/block/stone.png",
+    "keywords": [
+      "stone"
+    ]
+  },
+  {
+    "id": "cobblestone",
+    "name": "Булыжник",
+    "category": "blocks",
+    "model": "/minecraft/models/cobblestone.json",
+    "icon": "/minecraft/textures/block/cobblestone.png",
+    "keywords": [
+      "cobblestone"
+    ]
+  },
+  {
+    "id": "mossy_cobblestone",
+    "name": "Замшелый булыжник",
+    "category": "blocks",
+    "model": "/minecraft/models/mossy_cobblestone.json",
+    "icon": "/minecraft/textures/block/mossy_cobblestone.png",
+    "keywords": [
+      "mossy cobblestone"
+    ]
+  },
+  {
+    "id": "smooth_stone",
+    "name": "Гладкий камень",
+    "category": "blocks",
+    "model": "/minecraft/models/smooth_stone.json",
+    "icon": "/minecraft/textures/block/smooth_stone.png",
+    "keywords": [
+      "smooth stone"
+    ]
+  },
+  {
+    "id": "granite",
+    "name": "Гранит",
+    "category": "blocks",
+    "model": "/minecraft/models/granite.json",
+    "icon": "/minecraft/textures/block/granite.png",
+    "keywords": [
+      "granite"
+    ]
+  },
+  {
+    "id": "diorite",
+    "name": "Диорит",
+    "category": "blocks",
+    "model": "/minecraft/models/diorite.json",
+    "icon": "/minecraft/textures/block/diorite.png",
+    "keywords": [
+      "diorite"
+    ]
+  },
+  {
+    "id": "andesite",
+    "name": "Андезит",
+    "category": "blocks",
+    "model": "/minecraft/models/andesite.json",
+    "icon": "/minecraft/textures/block/andesite.png",
+    "keywords": [
+      "andesite"
+    ]
+  },
+  {
+    "id": "deepslate",
+    "name": "Глубинный сланец",
+    "category": "blocks",
+    "model": "/minecraft/models/deepslate.json",
+    "icon": "/minecraft/textures/block/deepslate.png",
+    "keywords": [
+      "deepslate"
+    ]
+  },
+  {
+    "id": "cobbled_deepslate",
+    "name": "Колотый глубинный сланец",
+    "category": "blocks",
+    "model": "/minecraft/models/cobbled_deepslate.json",
+    "icon": "/minecraft/textures/block/cobbled_deepslate.png",
+    "keywords": [
+      "cobbled deepslate"
+    ]
+  },
+  {
+    "id": "tuff",
+    "name": "Туф",
+    "category": "blocks",
+    "model": "/minecraft/models/tuff.json",
+    "icon": "/minecraft/textures/block/tuff.png",
+    "keywords": [
+      "tuff"
+    ]
+  },
+  {
+    "id": "calcite",
+    "name": "Кальцит",
+    "category": "blocks",
+    "model": "/minecraft/models/calcite.json",
+    "icon": "/minecraft/textures/block/calcite.png",
+    "keywords": [
+      "calcite"
+    ]
+  },
+  {
+    "id": "obsidian",
+    "name": "Обсидиан",
+    "category": "blocks",
+    "model": "/minecraft/models/obsidian.json",
+    "icon": "/minecraft/textures/block/obsidian.png",
+    "keywords": [
+      "obsidian"
+    ]
+  },
+  {
+    "id": "crying_obsidian",
+    "name": "Плачущий обсидиан",
+    "category": "blocks",
+    "model": "/minecraft/models/crying_obsidian.json",
+    "icon": "/minecraft/textures/block/crying_obsidian.png",
+    "keywords": [
+      "crying obsidian"
+    ]
+  },
+  {
+    "id": "bedrock",
+    "name": "Бедрок",
+    "category": "blocks",
+    "model": "/minecraft/models/bedrock.json",
+    "icon": "/minecraft/textures/block/bedrock.png",
+    "keywords": [
+      "bedrock"
+    ]
+  },
+  {
+    "id": "gold_block",
+    "name": "Золотой блок",
+    "category": "blocks",
+    "model": "/minecraft/models/gold_block.json",
+    "icon": "/minecraft/textures/block/gold_block.png",
+    "keywords": [
+      "gold block"
+    ]
+  },
+  {
+    "id": "iron_block",
+    "name": "Железный блок",
+    "category": "blocks",
+    "model": "/minecraft/models/iron_block.json",
+    "icon": "/minecraft/textures/block/iron_block.png",
+    "keywords": [
+      "iron block"
+    ]
+  },
+  {
+    "id": "emerald_block",
+    "name": "Изумрудный блок",
+    "category": "blocks",
+    "model": "/minecraft/models/emerald_block.json",
+    "icon": "/minecraft/textures/block/emerald_block.png",
+    "keywords": [
+      "emerald block"
+    ]
+  },
+  {
+    "id": "copper_block",
+    "name": "Медный блок",
+    "category": "blocks",
+    "model": "/minecraft/models/copper_block.json",
+    "icon": "/minecraft/textures/block/copper_block.png",
+    "keywords": [
+      "copper block"
+    ]
+  },
+  {
+    "id": "lapis_block",
+    "name": "Лазуритовый блок",
+    "category": "blocks",
+    "model": "/minecraft/models/lapis_block.json",
+    "icon": "/minecraft/textures/block/lapis_block.png",
+    "keywords": [
+      "lapis block"
+    ]
+  },
+  {
+    "id": "redstone_block",
+    "name": "Редстоуновый блок",
+    "category": "blocks",
+    "model": "/minecraft/models/redstone_block.json",
+    "icon": "/minecraft/textures/block/redstone_block.png",
+    "keywords": [
+      "redstone block"
+    ]
+  },
+  {
+    "id": "coal_block",
+    "name": "Угольный блок",
+    "category": "blocks",
+    "model": "/minecraft/models/coal_block.json",
+    "icon": "/minecraft/textures/block/coal_block.png",
+    "keywords": [
+      "coal block"
+    ]
+  },
+  {
+    "id": "quartz_block",
+    "name": "Кварцевый блок",
+    "category": "blocks",
+    "model": "/minecraft/models/quartz_block.json",
+    "icon": "/minecraft/textures/block/quartz_block_side.png",
+    "keywords": [
+      "quartz block"
+    ]
+  },
+  {
+    "id": "amethyst_block",
+    "name": "Аметистовый блок",
+    "category": "blocks",
+    "model": "/minecraft/models/amethyst_block.json",
+    "icon": "/minecraft/textures/block/amethyst_block.png",
+    "keywords": [
+      "amethyst block"
+    ]
+  },
+  {
+    "id": "raw_iron_block",
+    "name": "Блок рудного железа",
+    "category": "blocks",
+    "model": "/minecraft/models/raw_iron_block.json",
+    "icon": "/minecraft/textures/block/raw_iron_block.png",
+    "keywords": [
+      "raw iron block"
+    ]
+  },
+  {
+    "id": "raw_gold_block",
+    "name": "Блок рудного золота",
+    "category": "blocks",
+    "model": "/minecraft/models/raw_gold_block.json",
+    "icon": "/minecraft/textures/block/raw_gold_block.png",
+    "keywords": [
+      "raw gold block"
+    ]
+  },
+  {
+    "id": "raw_copper_block",
+    "name": "Блок рудной меди",
+    "category": "blocks",
+    "model": "/minecraft/models/raw_copper_block.json",
+    "icon": "/minecraft/textures/block/raw_copper_block.png",
+    "keywords": [
+      "raw copper block"
+    ]
+  },
+  {
+    "id": "tnt",
+    "name": "Динамит",
+    "category": "blocks",
+    "model": "/minecraft/models/tnt.json",
+    "icon": "/minecraft/textures/block/tnt_side.png",
+    "keywords": [
+      "tnt"
+    ]
+  },
+  {
+    "id": "crafting_table",
+    "name": "Верстак",
+    "category": "blocks",
+    "model": "/minecraft/models/crafting_table.json",
+    "icon": "/minecraft/textures/block/crafting_table_front.png",
+    "keywords": [
+      "crafting table"
+    ]
+  },
+  {
+    "id": "furnace",
+    "name": "Печь",
+    "category": "blocks",
+    "model": "/minecraft/models/furnace.json",
+    "icon": "/minecraft/textures/block/furnace_front.png",
+    "keywords": [
+      "furnace"
+    ]
+  },
+  {
+    "id": "blast_furnace",
+    "name": "Плавильная печь",
+    "category": "blocks",
+    "model": "/minecraft/models/blast_furnace.json",
+    "icon": "/minecraft/textures/block/blast_furnace_front.png",
+    "keywords": [
+      "blast furnace"
+    ]
+  },
+  {
+    "id": "smoker",
+    "name": "Коптильня",
+    "category": "blocks",
+    "model": "/minecraft/models/smoker.json",
+    "icon": "/minecraft/textures/block/smoker_front.png",
+    "keywords": [
+      "smoker"
+    ]
+  },
+  {
+    "id": "chest",
+    "name": "Сундук",
+    "category": "blocks",
+    "model": "/minecraft/models/chest.json",
+    "icon": "/minecraft/textures/block/oak_planks.png",
+    "keywords": [
+      "chest"
+    ]
+  },
+  {
+    "id": "ender_chest",
+    "name": "Эндер-сундук",
+    "category": "blocks",
+    "model": "/minecraft/models/ender_chest.json",
+    "icon": "/minecraft/textures/block/obsidian.png",
+    "keywords": [
+      "ender chest"
+    ]
+  },
+  {
+    "id": "barrel",
+    "name": "Бочка",
+    "category": "blocks",
+    "model": "/minecraft/models/barrel.json",
+    "icon": "/minecraft/textures/block/barrel_side.png",
+    "keywords": [
+      "barrel"
+    ]
+  },
+  {
+    "id": "bookshelf",
+    "name": "Книжная полка",
+    "category": "blocks",
+    "model": "/minecraft/models/bookshelf.json",
+    "icon": "/minecraft/textures/block/bookshelf.png",
+    "keywords": [
+      "bookshelf"
+    ]
+  },
+  {
+    "id": "chiseled_bookshelf",
+    "name": "Резная книжная полка",
+    "category": "blocks",
+    "model": "/minecraft/models/chiseled_bookshelf.json",
+    "icon": "/minecraft/textures/block/chiseled_bookshelf_empty.png",
+    "keywords": [
+      "chiseled bookshelf"
+    ]
+  },
+  {
+    "id": "oak_planks",
+    "name": "Дубовые доски",
+    "category": "blocks",
+    "model": "/minecraft/models/oak_planks.json",
+    "icon": "/minecraft/textures/block/oak_planks.png",
+    "keywords": [
+      "oak planks"
+    ]
+  },
+  {
+    "id": "spruce_planks",
+    "name": "Еловые доски",
+    "category": "blocks",
+    "model": "/minecraft/models/spruce_planks.json",
+    "icon": "/minecraft/textures/block/spruce_planks.png",
+    "keywords": [
+      "spruce planks"
+    ]
+  },
+  {
+    "id": "birch_planks",
+    "name": "Берёзовые доски",
+    "category": "blocks",
+    "model": "/minecraft/models/birch_planks.json",
+    "icon": "/minecraft/textures/block/birch_planks.png",
+    "keywords": [
+      "birch planks"
+    ]
+  },
+  {
+    "id": "jungle_planks",
+    "name": "Доски из джунглевого дерева",
+    "category": "blocks",
+    "model": "/minecraft/models/jungle_planks.json",
+    "icon": "/minecraft/textures/block/jungle_planks.png",
+    "keywords": [
+      "jungle planks"
+    ]
+  },
+  {
+    "id": "acacia_planks",
+    "name": "Акациевые доски",
+    "category": "blocks",
+    "model": "/minecraft/models/acacia_planks.json",
+    "icon": "/minecraft/textures/block/acacia_planks.png",
+    "keywords": [
+      "acacia planks"
+    ]
+  },
+  {
+    "id": "dark_oak_planks",
+    "name": "Доски из тёмного дуба",
+    "category": "blocks",
+    "model": "/minecraft/models/dark_oak_planks.json",
+    "icon": "/minecraft/textures/block/dark_oak_planks.png",
+    "keywords": [
+      "dark oak planks"
+    ]
+  },
+  {
+    "id": "mangrove_planks",
+    "name": "Мангровые доски",
+    "category": "blocks",
+    "model": "/minecraft/models/mangrove_planks.json",
+    "icon": "/minecraft/textures/block/mangrove_planks.png",
+    "keywords": [
+      "mangrove planks"
+    ]
+  },
+  {
+    "id": "cherry_planks",
+    "name": "Вишнёвые доски",
+    "category": "blocks",
+    "model": "/minecraft/models/cherry_planks.json",
+    "icon": "/minecraft/textures/block/cherry_planks.png",
+    "keywords": [
+      "cherry planks"
+    ]
+  },
+  {
+    "id": "bamboo_planks",
+    "name": "Бамбуковые доски",
+    "category": "blocks",
+    "model": "/minecraft/models/bamboo_planks.json",
+    "icon": "/minecraft/textures/block/bamboo_planks.png",
+    "keywords": [
+      "bamboo planks"
+    ]
+  },
+  {
+    "id": "pale_oak_planks",
+    "name": "Доски из бледного дуба",
+    "category": "blocks",
+    "model": "/minecraft/models/pale_oak_planks.json",
+    "icon": "/minecraft/textures/block/pale_oak_planks.png",
+    "keywords": [
+      "pale oak planks"
+    ]
+  },
+  {
+    "id": "crimson_planks",
+    "name": "Багровые доски",
+    "category": "blocks",
+    "model": "/minecraft/models/crimson_planks.json",
+    "icon": "/minecraft/textures/block/crimson_planks.png",
+    "keywords": [
+      "crimson planks"
+    ]
+  },
+  {
+    "id": "warped_planks",
+    "name": "Искажённые доски",
+    "category": "blocks",
+    "model": "/minecraft/models/warped_planks.json",
+    "icon": "/minecraft/textures/block/warped_planks.png",
+    "keywords": [
+      "warped planks"
+    ]
+  },
+  {
+    "id": "oak_log",
+    "name": "Дубовое бревно",
+    "category": "blocks",
+    "model": "/minecraft/models/oak_log.json",
+    "icon": "/minecraft/textures/block/oak_log.png",
+    "keywords": [
+      "oak log"
+    ]
+  },
+  {
+    "id": "spruce_log",
+    "name": "Еловое бревно",
+    "category": "blocks",
+    "model": "/minecraft/models/spruce_log.json",
+    "icon": "/minecraft/textures/block/spruce_log.png",
+    "keywords": [
+      "spruce log"
+    ]
+  },
+  {
+    "id": "birch_log",
+    "name": "Берёзовое бревно",
+    "category": "blocks",
+    "model": "/minecraft/models/birch_log.json",
+    "icon": "/minecraft/textures/block/birch_log.png",
+    "keywords": [
+      "birch log"
+    ]
+  },
+  {
+    "id": "jungle_log",
+    "name": "Бревно джунглевого дерева",
+    "category": "blocks",
+    "model": "/minecraft/models/jungle_log.json",
+    "icon": "/minecraft/textures/block/jungle_log.png",
+    "keywords": [
+      "jungle log"
+    ]
+  },
+  {
+    "id": "acacia_log",
+    "name": "Акациевое бревно",
+    "category": "blocks",
+    "model": "/minecraft/models/acacia_log.json",
+    "icon": "/minecraft/textures/block/acacia_log.png",
+    "keywords": [
+      "acacia log"
+    ]
+  },
+  {
+    "id": "dark_oak_log",
+    "name": "Бревно тёмного дуба",
+    "category": "blocks",
+    "model": "/minecraft/models/dark_oak_log.json",
+    "icon": "/minecraft/textures/block/dark_oak_log.png",
+    "keywords": [
+      "dark oak log"
+    ]
+  },
+  {
+    "id": "mangrove_log",
+    "name": "Мангровое бревно",
+    "category": "blocks",
+    "model": "/minecraft/models/mangrove_log.json",
+    "icon": "/minecraft/textures/block/mangrove_log.png",
+    "keywords": [
+      "mangrove log"
+    ]
+  },
+  {
+    "id": "cherry_log",
+    "name": "Вишнёвое бревно",
+    "category": "blocks",
+    "model": "/minecraft/models/cherry_log.json",
+    "icon": "/minecraft/textures/block/cherry_log.png",
+    "keywords": [
+      "cherry log"
+    ]
+  },
+  {
+    "id": "pale_oak_log",
+    "name": "Бревно бледного дуба",
+    "category": "blocks",
+    "model": "/minecraft/models/pale_oak_log.json",
+    "icon": "/minecraft/textures/block/pale_oak_log.png",
+    "keywords": [
+      "pale oak log"
+    ]
+  },
+  {
+    "id": "crimson_stem",
+    "name": "Багровая ножка",
+    "category": "blocks",
+    "model": "/minecraft/models/crimson_stem.json",
+    "icon": "/minecraft/textures/block/crimson_stem.png",
+    "keywords": [
+      "crimson stem"
+    ]
+  },
+  {
+    "id": "warped_stem",
+    "name": "Искажённая ножка",
+    "category": "blocks",
+    "model": "/minecraft/models/warped_stem.json",
+    "icon": "/minecraft/textures/block/warped_stem.png",
+    "keywords": [
+      "warped stem"
+    ]
+  },
+  {
+    "id": "stripped_oak_log",
+    "name": "Обтёсанное дубовое бревно",
+    "category": "blocks",
+    "model": "/minecraft/models/stripped_oak_log.json",
+    "icon": "/minecraft/textures/block/stripped_oak_log.png",
+    "keywords": [
+      "stripped oak log"
+    ]
+  },
+  {
+    "id": "glass",
+    "name": "Стекло",
+    "category": "blocks",
+    "model": "/minecraft/models/glass.json",
+    "icon": "/minecraft/textures/block/glass.png",
+    "keywords": [
+      "glass"
+    ]
+  },
+  {
+    "id": "tinted_glass",
+    "name": "Тонированное стекло",
+    "category": "blocks",
+    "model": "/minecraft/models/tinted_glass.json",
+    "icon": "/minecraft/textures/block/tinted_glass.png",
+    "keywords": [
+      "tinted glass"
+    ]
+  },
+  {
+    "id": "white_stained_glass",
+    "name": "Белое стекло",
+    "category": "blocks",
+    "model": "/minecraft/models/white_stained_glass.json",
+    "icon": "/minecraft/textures/block/white_stained_glass.png",
+    "keywords": [
+      "white stained glass"
+    ]
+  },
+  {
+    "id": "purple_stained_glass",
+    "name": "Фиолетовое стекло",
+    "category": "blocks",
+    "model": "/minecraft/models/purple_stained_glass.json",
+    "icon": "/minecraft/textures/block/purple_stained_glass.png",
+    "keywords": [
+      "purple stained glass"
+    ]
+  },
+  {
+    "id": "light_blue_stained_glass",
+    "name": "Голубое стекло",
+    "category": "blocks",
+    "model": "/minecraft/models/light_blue_stained_glass.json",
+    "icon": "/minecraft/textures/block/light_blue_stained_glass.png",
+    "keywords": [
+      "light blue stained glass"
+    ]
+  },
+  {
+    "id": "glowstone",
+    "name": "Светокамень",
+    "category": "blocks",
+    "model": "/minecraft/models/glowstone.json",
+    "icon": "/minecraft/textures/block/glowstone.png",
+    "keywords": [
+      "glowstone"
+    ]
+  },
+  {
+    "id": "sea_lantern",
+    "name": "Морской фонарь",
+    "category": "blocks",
+    "model": "/minecraft/models/sea_lantern.json",
+    "icon": "/minecraft/textures/block/sea_lantern.png",
+    "keywords": [
+      "sea lantern"
+    ]
+  },
+  {
+    "id": "shroomlight",
+    "name": "Грибосвет",
+    "category": "blocks",
+    "model": "/minecraft/models/shroomlight.json",
+    "icon": "/minecraft/textures/block/shroomlight.png",
+    "keywords": [
+      "shroomlight"
+    ]
+  },
+  {
+    "id": "redstone_lamp",
+    "name": "Редстоуновая лампа",
+    "category": "blocks",
+    "model": "/minecraft/models/redstone_lamp.json",
+    "icon": "/minecraft/textures/block/redstone_lamp.png",
+    "keywords": [
+      "redstone lamp"
+    ]
+  },
+  {
+    "id": "sand",
+    "name": "Песок",
+    "category": "blocks",
+    "model": "/minecraft/models/sand.json",
+    "icon": "/minecraft/textures/block/sand.png",
+    "keywords": [
+      "sand"
+    ]
+  },
+  {
+    "id": "red_sand",
+    "name": "Красный песок",
+    "category": "blocks",
+    "model": "/minecraft/models/red_sand.json",
+    "icon": "/minecraft/textures/block/red_sand.png",
+    "keywords": [
+      "red sand"
+    ]
+  },
+  {
+    "id": "gravel",
+    "name": "Гравий",
+    "category": "blocks",
+    "model": "/minecraft/models/gravel.json",
+    "icon": "/minecraft/textures/block/gravel.png",
+    "keywords": [
+      "gravel"
+    ]
+  },
+  {
+    "id": "sandstone",
+    "name": "Песчаник",
+    "category": "blocks",
+    "model": "/minecraft/models/sandstone.json",
+    "icon": "/minecraft/textures/block/sandstone.png",
+    "keywords": [
+      "sandstone"
+    ]
+  },
+  {
+    "id": "red_sandstone",
+    "name": "Красный песчаник",
+    "category": "blocks",
+    "model": "/minecraft/models/red_sandstone.json",
+    "icon": "/minecraft/textures/block/red_sandstone.png",
+    "keywords": [
+      "red sandstone"
+    ]
+  },
+  {
+    "id": "bricks",
+    "name": "Кирпичи",
+    "category": "blocks",
+    "model": "/minecraft/models/bricks.json",
+    "icon": "/minecraft/textures/block/bricks.png",
+    "keywords": [
+      "bricks"
+    ]
+  },
+  {
+    "id": "stone_bricks",
+    "name": "Каменные кирпичи",
+    "category": "blocks",
+    "model": "/minecraft/models/stone_bricks.json",
+    "icon": "/minecraft/textures/block/stone_bricks.png",
+    "keywords": [
+      "stone bricks"
+    ]
+  },
+  {
+    "id": "mossy_stone_bricks",
+    "name": "Замшелые каменные кирпичи",
+    "category": "blocks",
+    "model": "/minecraft/models/mossy_stone_bricks.json",
+    "icon": "/minecraft/textures/block/mossy_stone_bricks.png",
+    "keywords": [
+      "mossy stone bricks"
+    ]
+  },
+  {
+    "id": "cracked_stone_bricks",
+    "name": "Потрескавшиеся каменные кирпичи",
+    "category": "blocks",
+    "model": "/minecraft/models/cracked_stone_bricks.json",
+    "icon": "/minecraft/textures/block/cracked_stone_bricks.png",
+    "keywords": [
+      "cracked stone bricks"
+    ]
+  },
+  {
+    "id": "nether_bricks",
+    "name": "Незерские кирпичи",
+    "category": "blocks",
+    "model": "/minecraft/models/nether_bricks.json",
+    "icon": "/minecraft/textures/block/nether_bricks.png",
+    "keywords": [
+      "nether bricks"
+    ]
+  },
+  {
+    "id": "red_nether_bricks",
+    "name": "Красные незерские кирпичи",
+    "category": "blocks",
+    "model": "/minecraft/models/red_nether_bricks.json",
+    "icon": "/minecraft/textures/block/red_nether_bricks.png",
+    "keywords": [
+      "red nether bricks"
+    ]
+  },
+  {
+    "id": "netherrack",
+    "name": "Незерак",
+    "category": "blocks",
+    "model": "/minecraft/models/netherrack.json",
+    "icon": "/minecraft/textures/block/netherrack.png",
+    "keywords": [
+      "netherrack"
+    ]
+  },
+  {
+    "id": "soul_sand",
+    "name": "Песок душ",
+    "category": "blocks",
+    "model": "/minecraft/models/soul_sand.json",
+    "icon": "/minecraft/textures/block/soul_sand.png",
+    "keywords": [
+      "soul sand"
+    ]
+  },
+  {
+    "id": "soul_soil",
+    "name": "Почва душ",
+    "category": "blocks",
+    "model": "/minecraft/models/soul_soil.json",
+    "icon": "/minecraft/textures/block/soul_soil.png",
+    "keywords": [
+      "soul soil"
+    ]
+  },
+  {
+    "id": "blackstone",
+    "name": "Чернит",
+    "category": "blocks",
+    "model": "/minecraft/models/blackstone.json",
+    "icon": "/minecraft/textures/block/blackstone.png",
+    "keywords": [
+      "blackstone"
+    ]
+  },
+  {
+    "id": "gilded_blackstone",
+    "name": "Золочёный чернит",
+    "category": "blocks",
+    "model": "/minecraft/models/gilded_blackstone.json",
+    "icon": "/minecraft/textures/block/gilded_blackstone.png",
+    "keywords": [
+      "gilded blackstone"
+    ]
+  },
+  {
+    "id": "polished_blackstone",
+    "name": "Полированный чернит",
+    "category": "blocks",
+    "model": "/minecraft/models/polished_blackstone.json",
+    "icon": "/minecraft/textures/block/polished_blackstone.png",
+    "keywords": [
+      "polished blackstone"
+    ]
+  },
+  {
+    "id": "end_stone",
+    "name": "Эндерняк",
+    "category": "blocks",
+    "model": "/minecraft/models/end_stone.json",
+    "icon": "/minecraft/textures/block/end_stone.png",
+    "keywords": [
+      "end stone"
+    ]
+  },
+  {
+    "id": "end_stone_bricks",
+    "name": "Эндерняковые кирпичи",
+    "category": "blocks",
+    "model": "/minecraft/models/end_stone_bricks.json",
+    "icon": "/minecraft/textures/block/end_stone_bricks.png",
+    "keywords": [
+      "end stone bricks"
+    ]
+  },
+  {
+    "id": "purpur_block",
+    "name": "Пурпур",
+    "category": "blocks",
+    "model": "/minecraft/models/purpur_block.json",
+    "icon": "/minecraft/textures/block/purpur_block.png",
+    "keywords": [
+      "purpur block"
+    ]
+  },
+  {
+    "id": "prismarine",
+    "name": "Призмарин",
+    "category": "blocks",
+    "model": "/minecraft/models/prismarine.json",
+    "icon": "/minecraft/textures/block/prismarine.png",
+    "keywords": [
+      "prismarine"
+    ]
+  },
+  {
+    "id": "dark_prismarine",
+    "name": "Тёмный призмарин",
+    "category": "blocks",
+    "model": "/minecraft/models/dark_prismarine.json",
+    "icon": "/minecraft/textures/block/dark_prismarine.png",
+    "keywords": [
+      "dark prismarine"
+    ]
+  },
+  {
+    "id": "prismarine_bricks",
+    "name": "Призмариновые кирпичи",
+    "category": "blocks",
+    "model": "/minecraft/models/prismarine_bricks.json",
+    "icon": "/minecraft/textures/block/prismarine_bricks.png",
+    "keywords": [
+      "prismarine bricks"
+    ]
+  },
+  {
+    "id": "ice",
+    "name": "Лёд",
+    "category": "blocks",
+    "model": "/minecraft/models/ice.json",
+    "icon": "/minecraft/textures/block/ice.png",
+    "keywords": [
+      "ice"
+    ]
+  },
+  {
+    "id": "packed_ice",
+    "name": "Плотный лёд",
+    "category": "blocks",
+    "model": "/minecraft/models/packed_ice.json",
+    "icon": "/minecraft/textures/block/packed_ice.png",
+    "keywords": [
+      "packed ice"
+    ]
+  },
+  {
+    "id": "blue_ice",
+    "name": "Синий лёд",
+    "category": "blocks",
+    "model": "/minecraft/models/blue_ice.json",
+    "icon": "/minecraft/textures/block/blue_ice.png",
+    "keywords": [
+      "blue ice"
+    ]
+  },
+  {
+    "id": "snow_block",
+    "name": "Блок снега",
+    "category": "blocks",
+    "model": "/minecraft/models/snow_block.json",
+    "icon": "/minecraft/textures/block/snow.png",
+    "keywords": [
+      "snow block"
+    ]
+  },
+  {
+    "id": "clay",
+    "name": "Глина",
+    "category": "blocks",
+    "model": "/minecraft/models/clay.json",
+    "icon": "/minecraft/textures/block/clay.png",
+    "keywords": [
+      "clay"
+    ]
+  },
+  {
+    "id": "terracotta",
+    "name": "Терракота",
+    "category": "blocks",
+    "model": "/minecraft/models/terracotta.json",
+    "icon": "/minecraft/textures/block/terracotta.png",
+    "keywords": [
+      "terracotta"
+    ]
+  },
+  {
+    "id": "white_terracotta",
+    "name": "Белая керамика",
+    "category": "blocks",
+    "model": "/minecraft/models/white_terracotta.json",
+    "icon": "/minecraft/textures/block/white_terracotta.png",
+    "keywords": [
+      "white terracotta"
+    ]
+  },
+  {
+    "id": "purple_terracotta",
+    "name": "Фиолетовая керамика",
+    "category": "blocks",
+    "model": "/minecraft/models/purple_terracotta.json",
+    "icon": "/minecraft/textures/block/purple_terracotta.png",
+    "keywords": [
+      "purple terracotta"
+    ]
+  },
+  {
+    "id": "honey_block",
+    "name": "Блок мёда",
+    "category": "blocks",
+    "model": "/minecraft/models/honey_block.json",
+    "icon": "/minecraft/textures/block/honey_block_side.png",
+    "keywords": [
+      "honey block"
+    ]
+  },
+  {
+    "id": "slime_block",
+    "name": "Блок слизи",
+    "category": "blocks",
+    "model": "/minecraft/models/slime_block.json",
+    "icon": "/minecraft/textures/block/slime_block.png",
+    "keywords": [
+      "slime block"
+    ]
+  },
+  {
+    "id": "sponge",
+    "name": "Губка",
+    "category": "blocks",
+    "model": "/minecraft/models/sponge.json",
+    "icon": "/minecraft/textures/block/sponge.png",
+    "keywords": [
+      "sponge"
+    ]
+  },
+  {
+    "id": "wet_sponge",
+    "name": "Мокрая губка",
+    "category": "blocks",
+    "model": "/minecraft/models/wet_sponge.json",
+    "icon": "/minecraft/textures/block/wet_sponge.png",
+    "keywords": [
+      "wet sponge"
+    ]
+  },
+  {
+    "id": "dried_kelp_block",
+    "name": "Блок сушёной ламинарии",
+    "category": "blocks",
+    "model": "/minecraft/models/dried_kelp_block.json",
+    "icon": "/minecraft/textures/block/dried_kelp_side.png",
+    "keywords": [
+      "dried kelp block"
+    ]
+  },
+  {
+    "id": "hay_block",
+    "name": "Сноп сена",
+    "category": "blocks",
+    "model": "/minecraft/models/hay_block.json",
+    "icon": "/minecraft/textures/block/hay_block_side.png",
+    "keywords": [
+      "hay block"
+    ]
+  },
+  {
+    "id": "bone_block",
+    "name": "Костный блок",
+    "category": "blocks",
+    "model": "/minecraft/models/bone_block.json",
+    "icon": "/minecraft/textures/block/bone_block_side.png",
+    "keywords": [
+      "bone block"
+    ]
+  },
+  {
+    "id": "moss_block",
+    "name": "Блок мха",
+    "category": "blocks",
+    "model": "/minecraft/models/moss_block.json",
+    "icon": "/minecraft/textures/block/moss_block.png",
+    "keywords": [
+      "moss block"
+    ]
+  },
+  {
+    "id": "pumpkin",
+    "name": "Тыква",
+    "category": "blocks",
+    "model": "/minecraft/models/pumpkin.json",
+    "icon": "/minecraft/textures/block/pumpkin_side.png",
+    "keywords": [
+      "pumpkin"
+    ]
+  },
+  {
+    "id": "carved_pumpkin",
+    "name": "Вырезанная тыква",
+    "category": "blocks",
+    "model": "/minecraft/models/carved_pumpkin.json",
+    "icon": "/minecraft/textures/block/carved_pumpkin.png",
+    "keywords": [
+      "carved pumpkin"
+    ]
+  },
+  {
+    "id": "jack_o_lantern",
+    "name": "Светильник Джека",
+    "category": "blocks",
+    "model": "/minecraft/models/jack_o_lantern.json",
+    "icon": "/minecraft/textures/block/jack_o_lantern.png",
+    "keywords": [
+      "jack o lantern"
+    ]
+  },
+  {
+    "id": "melon",
+    "name": "Арбуз",
+    "category": "blocks",
+    "model": "/minecraft/models/melon.json",
+    "icon": "/minecraft/textures/block/melon_side.png",
+    "keywords": [
+      "melon"
+    ]
+  },
+  {
+    "id": "white_wool",
+    "name": "Белая шерсть",
+    "category": "blocks",
+    "model": "/minecraft/models/white_wool.json",
+    "icon": "/minecraft/textures/block/white_wool.png",
+    "keywords": [
+      "white wool"
+    ]
+  },
+  {
+    "id": "purple_wool",
+    "name": "Фиолетовая шерсть",
+    "category": "blocks",
+    "model": "/minecraft/models/purple_wool.json",
+    "icon": "/minecraft/textures/block/purple_wool.png",
+    "keywords": [
+      "purple wool"
+    ]
+  },
+  {
+    "id": "magenta_wool",
+    "name": "Пурпурная шерсть",
+    "category": "blocks",
+    "model": "/minecraft/models/magenta_wool.json",
+    "icon": "/minecraft/textures/block/magenta_wool.png",
+    "keywords": [
+      "magenta wool"
+    ]
+  },
+  {
+    "id": "black_wool",
+    "name": "Чёрная шерсть",
+    "category": "blocks",
+    "model": "/minecraft/models/black_wool.json",
+    "icon": "/minecraft/textures/block/black_wool.png",
+    "keywords": [
+      "black wool"
+    ]
+  },
+  {
+    "id": "white_concrete",
+    "name": "Белый бетон",
+    "category": "blocks",
+    "model": "/minecraft/models/white_concrete.json",
+    "icon": "/minecraft/textures/block/white_concrete.png",
+    "keywords": [
+      "white concrete"
+    ]
+  },
+  {
+    "id": "purple_concrete",
+    "name": "Фиолетовый бетон",
+    "category": "blocks",
+    "model": "/minecraft/models/purple_concrete.json",
+    "icon": "/minecraft/textures/block/purple_concrete.png",
+    "keywords": [
+      "purple concrete"
+    ]
+  },
+  {
+    "id": "black_concrete",
+    "name": "Чёрный бетон",
+    "category": "blocks",
+    "model": "/minecraft/models/black_concrete.json",
+    "icon": "/minecraft/textures/block/black_concrete.png",
+    "keywords": [
+      "black concrete"
+    ]
+  },
+  {
+    "id": "white_concrete_powder",
+    "name": "Белый сухой бетон",
+    "category": "blocks",
+    "model": "/minecraft/models/white_concrete_powder.json",
+    "icon": "/minecraft/textures/block/white_concrete_powder.png",
+    "keywords": [
+      "white concrete powder"
+    ]
+  },
+  {
+    "id": "purple_concrete_powder",
+    "name": "Фиолетовый сухой бетон",
+    "category": "blocks",
+    "model": "/minecraft/models/purple_concrete_powder.json",
+    "icon": "/minecraft/textures/block/purple_concrete_powder.png",
+    "keywords": [
+      "purple concrete powder"
+    ]
+  },
+  {
+    "id": "oak_leaves",
+    "name": "Дубовые листья",
+    "category": "blocks",
+    "model": "/minecraft/models/oak_leaves.json",
+    "icon": "/minecraft/textures/block/oak_leaves.png",
+    "keywords": [
+      "oak leaves"
+    ]
+  },
+  {
+    "id": "spruce_leaves",
+    "name": "Хвоя",
+    "category": "blocks",
+    "model": "/minecraft/models/spruce_leaves.json",
+    "icon": "/minecraft/textures/block/spruce_leaves.png",
+    "keywords": [
+      "spruce leaves"
+    ]
+  },
+  {
+    "id": "birch_leaves",
+    "name": "Берёзовые листья",
+    "category": "blocks",
+    "model": "/minecraft/models/birch_leaves.json",
+    "icon": "/minecraft/textures/block/birch_leaves.png",
+    "keywords": [
+      "birch leaves"
+    ]
+  },
+  {
+    "id": "azalea_leaves",
+    "name": "Листья азалии",
+    "category": "blocks",
+    "model": "/minecraft/models/azalea_leaves.json",
+    "icon": "/minecraft/textures/block/azalea_leaves.png",
+    "keywords": [
+      "azalea leaves"
+    ]
+  },
+  {
+    "id": "flowering_azalea_leaves",
+    "name": "Листья цветущей азалии",
+    "category": "blocks",
+    "model": "/minecraft/models/flowering_azalea_leaves.json",
+    "icon": "/minecraft/textures/block/flowering_azalea_leaves.png",
+    "keywords": [
+      "flowering azalea leaves"
+    ]
+  },
+  {
+    "id": "red_mushroom_block",
+    "name": "Блок красного гриба",
+    "category": "blocks",
+    "model": "/minecraft/models/red_mushroom_block.json",
+    "icon": "/minecraft/textures/block/red_mushroom_block.png",
+    "keywords": [
+      "red mushroom block"
+    ]
+  },
+  {
+    "id": "brown_mushroom_block",
+    "name": "Блок коричневого гриба",
+    "category": "blocks",
+    "model": "/minecraft/models/brown_mushroom_block.json",
+    "icon": "/minecraft/textures/block/brown_mushroom_block.png",
+    "keywords": [
+      "brown mushroom block"
+    ]
+  },
+  {
+    "id": "mushroom_stem",
+    "name": "Ножка гриба",
+    "category": "blocks",
+    "model": "/minecraft/models/mushroom_stem.json",
+    "icon": "/minecraft/textures/block/mushroom_stem.png",
+    "keywords": [
+      "mushroom stem"
+    ]
+  },
+  {
+    "id": "beehive",
+    "name": "Улей",
+    "category": "blocks",
+    "model": "/minecraft/models/beehive.json",
+    "icon": "/minecraft/textures/block/beehive_front.png",
+    "keywords": [
+      "beehive"
+    ]
+  },
+  {
+    "id": "bee_nest",
+    "name": "Пчелиное гнездо",
+    "category": "blocks",
+    "model": "/minecraft/models/bee_nest.json",
+    "icon": "/minecraft/textures/block/bee_nest_front.png",
+    "keywords": [
+      "bee nest"
+    ]
+  },
+  {
+    "id": "target",
+    "name": "Мишень",
+    "category": "blocks",
+    "model": "/minecraft/models/target.json",
+    "icon": "/minecraft/textures/block/target_side.png",
+    "keywords": [
+      "target"
+    ]
+  },
+  {
+    "id": "note_block",
+    "name": "Нотный блок",
+    "category": "blocks",
+    "model": "/minecraft/models/note_block.json",
+    "icon": "/minecraft/textures/block/note_block.png",
+    "keywords": [
+      "note block"
+    ]
+  },
+  {
+    "id": "jukebox",
+    "name": "Проигрыватель",
+    "category": "blocks",
+    "model": "/minecraft/models/jukebox.json",
+    "icon": "/minecraft/textures/block/jukebox_side.png",
+    "keywords": [
+      "jukebox"
+    ]
+  },
+  {
+    "id": "enchanting_table",
+    "name": "Чародейский стол",
+    "category": "blocks",
+    "model": "/minecraft/models/enchanting_table.json",
+    "icon": "/minecraft/textures/block/enchanting_table_side.png",
+    "keywords": [
+      "enchanting table"
+    ]
+  },
+  {
+    "id": "stonecutter",
+    "name": "Камнерез",
+    "category": "blocks",
+    "model": "/minecraft/models/stonecutter.json",
+    "icon": "/minecraft/textures/block/stonecutter_side.png",
+    "keywords": [
+      "stonecutter"
+    ]
+  },
+  {
+    "id": "anvil",
+    "name": "Наковальня",
+    "category": "blocks",
+    "model": "/minecraft/models/anvil.json",
+    "icon": "/minecraft/textures/block/anvil.png",
+    "keywords": [
+      "anvil"
+    ]
+  },
+  {
+    "id": "bell",
+    "name": "Колокол",
+    "category": "blocks",
+    "model": "/minecraft/models/bell.json",
+    "icon": "/minecraft/textures/item/bell.png",
+    "keywords": [
+      "bell"
+    ]
+  },
+  {
+    "id": "lantern",
+    "name": "Фонарь",
+    "category": "blocks",
+    "model": "/minecraft/models/lantern.json",
+    "icon": "/minecraft/textures/item/lantern.png",
+    "keywords": [
+      "lantern"
+    ]
+  },
+  {
+    "id": "soul_lantern",
+    "name": "Фонарь душ",
+    "category": "blocks",
+    "model": "/minecraft/models/soul_lantern.json",
+    "icon": "/minecraft/textures/item/soul_lantern.png",
+    "keywords": [
+      "soul lantern"
+    ]
+  },
+  {
+    "id": "chain",
+    "name": "Цепь",
+    "category": "blocks",
+    "model": "/minecraft/models/chain.json",
+    "icon": "/minecraft/textures/item/chain.png",
+    "keywords": [
+      "chain"
+    ]
+  },
+  {
+    "id": "iron_bars",
+    "name": "Железные прутья",
+    "category": "blocks",
+    "model": "/minecraft/models/iron_bars.json",
+    "icon": "/minecraft/textures/block/iron_bars.png",
+    "keywords": [
+      "iron bars"
+    ]
+  },
+  {
+    "id": "ladder",
+    "name": "Лестница",
+    "category": "blocks",
+    "model": "/minecraft/models/ladder.json",
+    "icon": "/minecraft/textures/block/ladder.png",
+    "keywords": [
+      "ladder"
+    ]
+  },
+  {
+    "id": "lever",
+    "name": "Рычаг",
+    "category": "blocks",
+    "model": "/minecraft/models/lever.json",
+    "icon": "/minecraft/textures/block/lever.png",
+    "keywords": [
+      "lever"
+    ]
+  },
+  {
+    "id": "torch",
+    "name": "Факел",
+    "category": "blocks",
+    "model": "/minecraft/models/torch.json",
+    "icon": "/minecraft/textures/block/torch.png",
+    "keywords": [
+      "torch"
+    ]
+  },
+  {
+    "id": "redstone_torch",
+    "name": "Редстоуновый факел",
+    "category": "blocks",
+    "model": "/minecraft/models/redstone_torch.json",
+    "icon": "/minecraft/textures/block/redstone_torch.png",
+    "keywords": [
+      "redstone torch"
+    ]
+  },
+  {
+    "id": "repeater",
+    "name": "Редстоуновый повторитель",
+    "category": "blocks",
+    "model": "/minecraft/models/repeater.json",
+    "icon": "/minecraft/textures/item/repeater.png",
+    "keywords": [
+      "repeater"
+    ]
+  },
+  {
+    "id": "comparator",
+    "name": "Редстоуновый компаратор",
+    "category": "blocks",
+    "model": "/minecraft/models/comparator.json",
+    "icon": "/minecraft/textures/item/comparator.png",
+    "keywords": [
+      "comparator"
+    ]
+  },
+  {
+    "id": "hopper",
+    "name": "Воронка",
+    "category": "blocks",
+    "model": "/minecraft/models/hopper.json",
+    "icon": "/minecraft/textures/item/hopper.png",
+    "keywords": [
+      "hopper"
+    ]
+  },
+  {
+    "id": "dispenser",
+    "name": "Раздатчик",
+    "category": "blocks",
+    "model": "/minecraft/models/dispenser.json",
+    "icon": "/minecraft/textures/block/dispenser_front.png",
+    "keywords": [
+      "dispenser"
+    ]
+  },
+  {
+    "id": "dropper",
+    "name": "Выбрасыватель",
+    "category": "blocks",
+    "model": "/minecraft/models/dropper.json",
+    "icon": "/minecraft/textures/block/dropper_front.png",
+    "keywords": [
+      "dropper"
+    ]
+  },
+  {
+    "id": "observer",
+    "name": "Наблюдатель",
+    "category": "blocks",
+    "model": "/minecraft/models/observer.json",
+    "icon": "/minecraft/textures/block/observer_front.png",
+    "keywords": [
+      "observer"
+    ]
+  },
+  {
+    "id": "piston",
+    "name": "Поршень",
+    "category": "blocks",
+    "model": "/minecraft/models/piston.json",
+    "icon": "/minecraft/textures/block/piston_side.png",
+    "keywords": [
+      "piston"
+    ]
+  },
+  {
+    "id": "sticky_piston",
+    "name": "Липкий поршень",
+    "category": "blocks",
+    "model": "/minecraft/models/sticky_piston.json",
+    "icon": "/minecraft/textures/block/piston_side.png",
+    "keywords": [
+      "sticky piston"
+    ]
+  },
+  {
+    "id": "beacon",
+    "name": "Маяк",
+    "category": "blocks",
+    "model": "/minecraft/models/beacon.json",
+    "icon": "/minecraft/textures/block/glass.png",
+    "keywords": [
+      "beacon"
+    ]
+  },
+  {
+    "id": "respawn_anchor",
+    "name": "Якорь возрождения",
+    "category": "blocks",
+    "model": "/minecraft/models/respawn_anchor.json",
+    "icon": "/minecraft/textures/block/respawn_anchor_side0.png",
+    "keywords": [
+      "respawn anchor"
+    ]
+  },
+  {
+    "id": "lodestone",
+    "name": "Магнетит",
+    "category": "blocks",
+    "model": "/minecraft/models/lodestone.json",
+    "icon": "/minecraft/textures/block/lodestone_side.png",
+    "keywords": [
+      "lodestone"
+    ]
+  },
+  {
+    "id": "ancient_debris",
+    "name": "Древние обломки",
+    "category": "blocks",
+    "model": "/minecraft/models/ancient_debris.json",
+    "icon": "/minecraft/textures/block/ancient_debris_side.png",
+    "keywords": [
+      "ancient debris"
+    ]
+  },
+  {
+    "id": "diamond_ore",
+    "name": "Алмазная руда",
+    "category": "blocks",
+    "model": "/minecraft/models/diamond_ore.json",
+    "icon": "/minecraft/textures/block/diamond_ore.png",
+    "keywords": [
+      "diamond ore"
+    ]
+  },
+  {
+    "id": "deepslate_diamond_ore",
+    "name": "Глубинносланцевая алмазная руда",
+    "category": "blocks",
+    "model": "/minecraft/models/deepslate_diamond_ore.json",
+    "icon": "/minecraft/textures/block/deepslate_diamond_ore.png",
+    "keywords": [
+      "deepslate diamond ore"
+    ]
+  },
+  {
+    "id": "emerald_ore",
+    "name": "Изумрудная руда",
+    "category": "blocks",
+    "model": "/minecraft/models/emerald_ore.json",
+    "icon": "/minecraft/textures/block/emerald_ore.png",
+    "keywords": [
+      "emerald ore"
+    ]
+  },
+  {
+    "id": "iron_ore",
+    "name": "Железная руда",
+    "category": "blocks",
+    "model": "/minecraft/models/iron_ore.json",
+    "icon": "/minecraft/textures/block/iron_ore.png",
+    "keywords": [
+      "iron ore"
+    ]
+  },
+  {
+    "id": "gold_ore",
+    "name": "Золотая руда",
+    "category": "blocks",
+    "model": "/minecraft/models/gold_ore.json",
+    "icon": "/minecraft/textures/block/gold_ore.png",
+    "keywords": [
+      "gold ore"
+    ]
+  },
+  {
+    "id": "coal_ore",
+    "name": "Угольная руда",
+    "category": "blocks",
+    "model": "/minecraft/models/coal_ore.json",
+    "icon": "/minecraft/textures/block/coal_ore.png",
+    "keywords": [
+      "coal ore"
+    ]
+  },
+  {
+    "id": "lapis_ore",
+    "name": "Лазуритовая руда",
+    "category": "blocks",
+    "model": "/minecraft/models/lapis_ore.json",
+    "icon": "/minecraft/textures/block/lapis_ore.png",
+    "keywords": [
+      "lapis ore"
+    ]
+  },
+  {
+    "id": "redstone_ore",
+    "name": "Редстоуновая руда",
+    "category": "blocks",
+    "model": "/minecraft/models/redstone_ore.json",
+    "icon": "/minecraft/textures/block/redstone_ore.png",
+    "keywords": [
+      "redstone ore"
+    ]
+  },
+  {
+    "id": "nether_quartz_ore",
+    "name": "Руда незерского кварца",
+    "category": "blocks",
+    "model": "/minecraft/models/nether_quartz_ore.json",
+    "icon": "/minecraft/textures/block/nether_quartz_ore.png",
+    "keywords": [
+      "nether quartz ore"
+    ]
+  },
+  {
+    "id": "nether_gold_ore",
+    "name": "Незерская золотая руда",
+    "category": "blocks",
+    "model": "/minecraft/models/nether_gold_ore.json",
+    "icon": "/minecraft/textures/block/nether_gold_ore.png",
+    "keywords": [
+      "nether gold ore"
+    ]
+  },
+  {
+    "id": "copper_ore",
+    "name": "Медная руда",
+    "category": "blocks",
+    "model": "/minecraft/models/copper_ore.json",
+    "icon": "/minecraft/textures/block/copper_ore.png",
+    "keywords": [
+      "copper ore"
+    ]
+  },
+  {
+    "id": "apple",
+    "name": "Яблоко",
+    "category": "food",
+    "model": "/minecraft/models/apple.json",
+    "icon": "/minecraft/textures/item/apple.png",
+    "keywords": [
+      "apple"
+    ]
+  },
+  {
+    "id": "golden_apple",
+    "name": "Золотое яблоко",
+    "category": "food",
+    "model": "/minecraft/models/golden_apple.json",
+    "icon": "/minecraft/textures/item/golden_apple.png",
+    "keywords": [
+      "golden apple",
+      "золотой"
+    ]
+  },
+  {
+    "id": "enchanted_golden_apple",
+    "name": "Зачарованное золотое яблоко",
+    "category": "food",
+    "model": "/minecraft/models/enchanted_golden_apple.json",
+    "icon": "/minecraft/textures/item/golden_apple.png",
+    "keywords": [
+      "enchanted golden apple",
+      "золотой"
+    ]
+  },
+  {
+    "id": "bread",
+    "name": "Хлеб",
+    "category": "food",
+    "model": "/minecraft/models/bread.json",
+    "icon": "/minecraft/textures/item/bread.png",
+    "keywords": [
+      "bread"
+    ]
+  },
+  {
+    "id": "carrot",
+    "name": "Морковь",
+    "category": "food",
+    "model": "/minecraft/models/carrot.json",
+    "icon": "/minecraft/textures/item/carrot.png",
+    "keywords": [
+      "carrot"
+    ]
+  },
+  {
+    "id": "golden_carrot",
+    "name": "Золотая морковь",
+    "category": "food",
+    "model": "/minecraft/models/golden_carrot.json",
+    "icon": "/minecraft/textures/item/golden_carrot.png",
+    "keywords": [
+      "golden carrot",
+      "золотой"
+    ]
+  },
+  {
+    "id": "potato",
+    "name": "Картофель",
+    "category": "food",
+    "model": "/minecraft/models/potato.json",
+    "icon": "/minecraft/textures/item/potato.png",
+    "keywords": [
+      "potato"
+    ]
+  },
+  {
+    "id": "baked_potato",
+    "name": "Печёный картофель",
+    "category": "food",
+    "model": "/minecraft/models/baked_potato.json",
+    "icon": "/minecraft/textures/item/baked_potato.png",
+    "keywords": [
+      "baked potato"
+    ]
+  },
+  {
+    "id": "poisonous_potato",
+    "name": "Ядовитый картофель",
+    "category": "food",
+    "model": "/minecraft/models/poisonous_potato.json",
+    "icon": "/minecraft/textures/item/poisonous_potato.png",
+    "keywords": [
+      "poisonous potato"
+    ]
+  },
+  {
+    "id": "beetroot",
+    "name": "Свёкла",
+    "category": "food",
+    "model": "/minecraft/models/beetroot.json",
+    "icon": "/minecraft/textures/item/beetroot.png",
+    "keywords": [
+      "beetroot"
+    ]
+  },
+  {
+    "id": "beetroot_soup",
+    "name": "Свекольный суп",
+    "category": "food",
+    "model": "/minecraft/models/beetroot_soup.json",
+    "icon": "/minecraft/textures/item/beetroot_soup.png",
+    "keywords": [
+      "beetroot soup"
+    ]
+  },
+  {
+    "id": "mushroom_stew",
+    "name": "Тушёные грибы",
+    "category": "food",
+    "model": "/minecraft/models/mushroom_stew.json",
+    "icon": "/minecraft/textures/item/mushroom_stew.png",
+    "keywords": [
+      "mushroom stew"
+    ]
+  },
+  {
+    "id": "rabbit_stew",
+    "name": "Тушёный кролик",
+    "category": "food",
+    "model": "/minecraft/models/rabbit_stew.json",
+    "icon": "/minecraft/textures/item/rabbit_stew.png",
+    "keywords": [
+      "rabbit stew"
+    ]
+  },
+  {
+    "id": "suspicious_stew",
+    "name": "Загадочное рагу",
+    "category": "food",
+    "model": "/minecraft/models/suspicious_stew.json",
+    "icon": "/minecraft/textures/item/suspicious_stew.png",
+    "keywords": [
+      "suspicious stew"
+    ]
+  },
+  {
+    "id": "sweet_berries",
+    "name": "Сладкие ягоды",
+    "category": "food",
+    "model": "/minecraft/models/sweet_berries.json",
+    "icon": "/minecraft/textures/item/sweet_berries.png",
+    "keywords": [
+      "sweet berries"
+    ]
+  },
+  {
+    "id": "glow_berries",
+    "name": "Светящиеся ягоды",
+    "category": "food",
+    "model": "/minecraft/models/glow_berries.json",
+    "icon": "/minecraft/textures/item/glow_berries.png",
+    "keywords": [
+      "glow berries"
+    ]
+  },
+  {
+    "id": "chorus_fruit",
+    "name": "Плод хоруса",
+    "category": "food",
+    "model": "/minecraft/models/chorus_fruit.json",
+    "icon": "/minecraft/textures/item/chorus_fruit.png",
+    "keywords": [
+      "chorus fruit"
+    ]
+  },
+  {
+    "id": "dried_kelp",
+    "name": "Сушёная ламинария",
+    "category": "food",
+    "model": "/minecraft/models/dried_kelp.json",
+    "icon": "/minecraft/textures/item/dried_kelp.png",
+    "keywords": [
+      "dried kelp"
+    ]
+  },
+  {
+    "id": "beef",
+    "name": "Сырая говядина",
+    "category": "food",
+    "model": "/minecraft/models/beef.json",
+    "icon": "/minecraft/textures/item/beef.png",
+    "keywords": [
+      "beef"
+    ]
+  },
+  {
+    "id": "cooked_beef",
+    "name": "Стейк",
+    "category": "food",
+    "model": "/minecraft/models/cooked_beef.json",
+    "icon": "/minecraft/textures/item/cooked_beef.png",
+    "keywords": [
+      "cooked beef"
+    ]
+  },
+  {
+    "id": "porkchop",
+    "name": "Сырая свинина",
+    "category": "food",
+    "model": "/minecraft/models/porkchop.json",
+    "icon": "/minecraft/textures/item/porkchop.png",
+    "keywords": [
+      "porkchop"
+    ]
+  },
+  {
+    "id": "cooked_porkchop",
+    "name": "Жареная свинина",
+    "category": "food",
+    "model": "/minecraft/models/cooked_porkchop.json",
+    "icon": "/minecraft/textures/item/cooked_porkchop.png",
+    "keywords": [
+      "cooked porkchop"
+    ]
+  },
+  {
+    "id": "mutton",
+    "name": "Сырая баранина",
+    "category": "food",
+    "model": "/minecraft/models/mutton.json",
+    "icon": "/minecraft/textures/item/mutton.png",
+    "keywords": [
+      "mutton"
+    ]
+  },
+  {
+    "id": "cooked_mutton",
+    "name": "Жареная баранина",
+    "category": "food",
+    "model": "/minecraft/models/cooked_mutton.json",
+    "icon": "/minecraft/textures/item/cooked_mutton.png",
+    "keywords": [
+      "cooked mutton"
+    ]
+  },
+  {
+    "id": "chicken",
+    "name": "Сырая курица",
+    "category": "food",
+    "model": "/minecraft/models/chicken.json",
+    "icon": "/minecraft/textures/item/chicken.png",
+    "keywords": [
+      "chicken"
+    ]
+  },
+  {
+    "id": "cooked_chicken",
+    "name": "Жареная курица",
+    "category": "food",
+    "model": "/minecraft/models/cooked_chicken.json",
+    "icon": "/minecraft/textures/item/cooked_chicken.png",
+    "keywords": [
+      "cooked chicken"
+    ]
+  },
+  {
+    "id": "rabbit",
+    "name": "Сырая крольчатина",
+    "category": "food",
+    "model": "/minecraft/models/rabbit.json",
+    "icon": "/minecraft/textures/item/rabbit.png",
+    "keywords": [
+      "rabbit"
+    ]
+  },
+  {
+    "id": "cooked_rabbit",
+    "name": "Жареная крольчатина",
+    "category": "food",
+    "model": "/minecraft/models/cooked_rabbit.json",
+    "icon": "/minecraft/textures/item/cooked_rabbit.png",
+    "keywords": [
+      "cooked rabbit"
+    ]
+  },
+  {
+    "id": "cod",
+    "name": "Сырая треска",
+    "category": "food",
+    "model": "/minecraft/models/cod.json",
+    "icon": "/minecraft/textures/item/cod.png",
+    "keywords": [
+      "cod"
+    ]
+  },
+  {
+    "id": "cooked_cod",
+    "name": "Жареная треска",
+    "category": "food",
+    "model": "/minecraft/models/cooked_cod.json",
+    "icon": "/minecraft/textures/item/cooked_cod.png",
+    "keywords": [
+      "cooked cod"
+    ]
+  },
+  {
+    "id": "salmon",
+    "name": "Сырой лосось",
+    "category": "food",
+    "model": "/minecraft/models/salmon.json",
+    "icon": "/minecraft/textures/item/salmon.png",
+    "keywords": [
+      "salmon"
+    ]
+  },
+  {
+    "id": "cooked_salmon",
+    "name": "Жареный лосось",
+    "category": "food",
+    "model": "/minecraft/models/cooked_salmon.json",
+    "icon": "/minecraft/textures/item/cooked_salmon.png",
+    "keywords": [
+      "cooked salmon"
+    ]
+  },
+  {
+    "id": "tropical_fish",
+    "name": "Тропическая рыба",
+    "category": "food",
+    "model": "/minecraft/models/tropical_fish.json",
+    "icon": "/minecraft/textures/item/tropical_fish.png",
+    "keywords": [
+      "tropical fish"
+    ]
+  },
+  {
+    "id": "pufferfish",
+    "name": "Иглобрюх",
+    "category": "food",
+    "model": "/minecraft/models/pufferfish.json",
+    "icon": "/minecraft/textures/item/pufferfish.png",
+    "keywords": [
+      "pufferfish"
+    ]
+  },
+  {
+    "id": "rotten_flesh",
+    "name": "Гнилая плоть",
+    "category": "food",
+    "model": "/minecraft/models/rotten_flesh.json",
+    "icon": "/minecraft/textures/item/rotten_flesh.png",
+    "keywords": [
+      "rotten flesh"
+    ]
+  },
+  {
+    "id": "spider_eye",
+    "name": "Паучий глаз",
+    "category": "food",
+    "model": "/minecraft/models/spider_eye.json",
+    "icon": "/minecraft/textures/item/spider_eye.png",
+    "keywords": [
+      "spider eye"
+    ]
+  },
+  {
+    "id": "cake",
+    "name": "Торт",
+    "category": "food",
+    "model": "/minecraft/models/cake.json",
+    "icon": "/minecraft/textures/block/cake_side.png",
+    "keywords": [
+      "cake"
+    ]
+  },
+  {
+    "id": "cookie",
+    "name": "Печенье",
+    "category": "food",
+    "model": "/minecraft/models/cookie.json",
+    "icon": "/minecraft/textures/item/cookie.png",
+    "keywords": [
+      "cookie"
+    ]
+  },
+  {
+    "id": "melon_slice",
+    "name": "Ломтик арбуза",
+    "category": "food",
+    "model": "/minecraft/models/melon_slice.json",
+    "icon": "/minecraft/textures/item/melon_slice.png",
+    "keywords": [
+      "melon slice"
+    ]
+  },
+  {
+    "id": "pumpkin_pie",
+    "name": "Тыквенный пирог",
+    "category": "food",
+    "model": "/minecraft/models/pumpkin_pie.json",
+    "icon": "/minecraft/textures/item/pumpkin_pie.png",
+    "keywords": [
+      "pumpkin pie"
+    ]
+  },
+  {
+    "id": "honey_bottle",
+    "name": "Бутылочка мёда",
+    "category": "food",
+    "model": "/minecraft/models/honey_bottle.json",
+    "icon": "/minecraft/textures/item/honey_bottle.png",
+    "keywords": [
+      "honey bottle"
+    ]
+  },
+  {
+    "id": "milk_bucket",
+    "name": "Ведро молока",
+    "category": "food",
+    "model": "/minecraft/models/milk_bucket.json",
+    "icon": "/minecraft/textures/item/milk_bucket.png",
+    "keywords": [
+      "milk bucket"
+    ]
+  },
+  {
+    "id": "egg",
+    "name": "Яйцо",
+    "category": "food",
+    "model": "/minecraft/models/egg.json",
+    "icon": "/minecraft/textures/item/egg.png",
+    "keywords": [
+      "egg"
+    ]
+  },
+  {
+    "id": "sugar",
+    "name": "Сахар",
+    "category": "food",
+    "model": "/minecraft/models/sugar.json",
+    "icon": "/minecraft/textures/item/sugar.png",
+    "keywords": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "wheat",
+    "name": "Пшеница",
+    "category": "food",
+    "model": "/minecraft/models/wheat.json",
+    "icon": "/minecraft/textures/item/wheat.png",
+    "keywords": [
+      "wheat"
+    ]
+  },
+  {
+    "id": "cocoa_beans",
+    "name": "Какао-бобы",
+    "category": "food",
+    "model": "/minecraft/models/cocoa_beans.json",
+    "icon": "/minecraft/textures/item/cocoa_beans.png",
+    "keywords": [
+      "cocoa beans"
+    ]
+  },
+  {
+    "id": "totem_of_undying",
+    "name": "Тотем бессмертия",
+    "category": "special",
+    "model": "/minecraft/models/totem_of_undying.json",
+    "icon": "/minecraft/textures/item/totem_of_undying.png",
+    "keywords": [
+      "totem of undying"
+    ]
+  },
+  {
+    "id": "ender_pearl",
+    "name": "Эндер-жемчуг",
+    "category": "special",
+    "model": "/minecraft/models/ender_pearl.json",
+    "icon": "/minecraft/textures/item/ender_pearl.png",
+    "keywords": [
+      "ender pearl"
+    ]
+  },
+  {
+    "id": "ender_eye",
+    "name": "Око Эндера",
+    "category": "special",
+    "model": "/minecraft/models/ender_eye.json",
+    "icon": "/minecraft/textures/item/ender_eye.png",
+    "keywords": [
+      "ender eye"
+    ]
+  },
+  {
+    "id": "nether_star",
+    "name": "Звезда Незера",
+    "category": "special",
+    "model": "/minecraft/models/nether_star.json",
+    "icon": "/minecraft/textures/item/nether_star.png",
+    "keywords": [
+      "nether star"
+    ]
+  },
+  {
+    "id": "elytra",
+    "name": "Элитры",
+    "category": "special",
+    "model": "/minecraft/models/elytra.json",
+    "icon": "/minecraft/textures/item/elytra.png",
+    "keywords": [
+      "elytra"
+    ]
+  },
+  {
+    "id": "potion",
+    "name": "Зелье",
+    "category": "special",
+    "model": "/minecraft/models/potion.json",
+    "icon": "/minecraft/textures/item/potion_overlay.png",
+    "keywords": [
+      "potion"
+    ]
+  },
+  {
+    "id": "splash_potion",
+    "name": "Взрывное зелье",
+    "category": "special",
+    "model": "/minecraft/models/splash_potion.json",
+    "icon": "/minecraft/textures/item/potion_overlay.png",
+    "keywords": [
+      "splash potion"
+    ]
+  },
+  {
+    "id": "lingering_potion",
+    "name": "Туманное зелье",
+    "category": "special",
+    "model": "/minecraft/models/lingering_potion.json",
+    "icon": "/minecraft/textures/item/potion_overlay.png",
+    "keywords": [
+      "lingering potion"
+    ]
+  },
+  {
+    "id": "experience_bottle",
+    "name": "Пузырёк опыта",
+    "category": "special",
+    "model": "/minecraft/models/experience_bottle.json",
+    "icon": "/minecraft/textures/item/experience_bottle.png",
+    "keywords": [
+      "experience bottle"
+    ]
+  },
+  {
+    "id": "compass",
+    "name": "Компас",
+    "category": "special",
+    "model": "/minecraft/models/compass.json",
+    "icon": "/minecraft/textures/item/compass_16.png",
+    "keywords": [
+      "compass"
+    ]
+  },
+  {
+    "id": "recovery_compass",
+    "name": "Возвратный компас",
+    "category": "special",
+    "model": "/minecraft/models/recovery_compass.json",
+    "icon": "/minecraft/textures/item/recovery_compass_16.png",
+    "keywords": [
+      "recovery compass"
+    ]
+  },
+  {
+    "id": "clock",
+    "name": "Часы",
+    "category": "special",
+    "model": "/minecraft/models/clock.json",
+    "icon": "/minecraft/textures/item/clock_00.png",
+    "keywords": [
+      "clock"
+    ]
+  },
+  {
+    "id": "map",
+    "name": "Чистая карта",
+    "category": "special",
+    "model": "/minecraft/models/map.json",
+    "icon": "/minecraft/textures/item/map.png",
+    "keywords": [
+      "map"
+    ]
+  },
+  {
+    "id": "filled_map",
+    "name": "Карта",
+    "category": "special",
+    "model": "/minecraft/models/filled_map.json",
+    "icon": "/minecraft/textures/item/filled_map.png",
+    "keywords": [
+      "filled map"
+    ]
+  },
+  {
+    "id": "book",
+    "name": "Книга",
+    "category": "special",
+    "model": "/minecraft/models/book.json",
+    "icon": "/minecraft/textures/item/book.png",
+    "keywords": [
+      "book"
+    ]
+  },
+  {
+    "id": "writable_book",
+    "name": "Книга и перо",
+    "category": "special",
+    "model": "/minecraft/models/writable_book.json",
+    "icon": "/minecraft/textures/item/writable_book.png",
+    "keywords": [
+      "writable book"
+    ]
+  },
+  {
+    "id": "written_book",
+    "name": "Завершённая книга",
+    "category": "special",
+    "model": "/minecraft/models/written_book.json",
+    "icon": "/minecraft/textures/item/written_book.png",
+    "keywords": [
+      "written book"
+    ]
+  },
+  {
+    "id": "enchanted_book",
+    "name": "Чародейская книга",
+    "category": "special",
+    "model": "/minecraft/models/enchanted_book.json",
+    "icon": "/minecraft/textures/item/enchanted_book.png",
+    "keywords": [
+      "enchanted book"
+    ]
+  },
+  {
+    "id": "firework_rocket",
+    "name": "Фейерверк",
+    "category": "special",
+    "model": "/minecraft/models/firework_rocket.json",
+    "icon": "/minecraft/textures/item/firework_rocket.png",
+    "keywords": [
+      "firework rocket"
+    ]
+  },
+  {
+    "id": "firework_star",
+    "name": "Пиротехническая звезда",
+    "category": "special",
+    "model": "/minecraft/models/firework_star.json",
+    "icon": "/minecraft/textures/item/firework_star.png",
+    "keywords": [
+      "firework star"
+    ]
+  },
+  {
+    "id": "water_bucket",
+    "name": "Ведро воды",
+    "category": "special",
+    "model": "/minecraft/models/water_bucket.json",
+    "icon": "/minecraft/textures/item/water_bucket.png",
+    "keywords": [
+      "water bucket"
+    ]
+  },
+  {
+    "id": "lava_bucket",
+    "name": "Ведро лавы",
+    "category": "special",
+    "model": "/minecraft/models/lava_bucket.json",
+    "icon": "/minecraft/textures/item/lava_bucket.png",
+    "keywords": [
+      "lava bucket"
+    ]
+  },
+  {
+    "id": "powder_snow_bucket",
+    "name": "Ведро с рыхлым снегом",
+    "category": "special",
+    "model": "/minecraft/models/powder_snow_bucket.json",
+    "icon": "/minecraft/textures/item/powder_snow_bucket.png",
+    "keywords": [
+      "powder snow bucket"
+    ]
+  },
+  {
+    "id": "bucket",
+    "name": "Ведро",
+    "category": "special",
+    "model": "/minecraft/models/bucket.json",
+    "icon": "/minecraft/textures/item/bucket.png",
+    "keywords": [
+      "bucket"
+    ]
+  },
+  {
+    "id": "amethyst_shard",
+    "name": "Осколок аметиста",
+    "category": "special",
+    "model": "/minecraft/models/amethyst_shard.json",
+    "icon": "/minecraft/textures/item/amethyst_shard.png",
+    "keywords": [
+      "amethyst shard"
+    ]
+  },
+  {
+    "id": "emerald",
+    "name": "Изумруд",
+    "category": "special",
+    "model": "/minecraft/models/emerald.json",
+    "icon": "/minecraft/textures/item/emerald.png",
+    "keywords": [
+      "emerald"
+    ]
+  },
+  {
+    "id": "lapis_lazuli",
+    "name": "Лазурит",
+    "category": "special",
+    "model": "/minecraft/models/lapis_lazuli.json",
+    "icon": "/minecraft/textures/item/lapis_lazuli.png",
+    "keywords": [
+      "lapis lazuli"
+    ]
+  },
+  {
+    "id": "redstone",
+    "name": "Редстоуновая пыль",
+    "category": "special",
+    "model": "/minecraft/models/redstone.json",
+    "icon": "/minecraft/textures/item/redstone.png",
+    "keywords": [
+      "redstone"
+    ]
+  },
+  {
+    "id": "quartz",
+    "name": "Незерский кварц",
+    "category": "special",
+    "model": "/minecraft/models/quartz.json",
+    "icon": "/minecraft/textures/item/quartz.png",
+    "keywords": [
+      "quartz"
+    ]
+  },
+  {
+    "id": "echo_shard",
+    "name": "Осколок эха",
+    "category": "special",
+    "model": "/minecraft/models/echo_shard.json",
+    "icon": "/minecraft/textures/item/echo_shard.png",
+    "keywords": [
+      "echo shard"
+    ]
+  },
+  {
+    "id": "heart_of_the_sea",
+    "name": "Сердце моря",
+    "category": "special",
+    "model": "/minecraft/models/heart_of_the_sea.json",
+    "icon": "/minecraft/textures/item/heart_of_the_sea.png",
+    "keywords": [
+      "heart of the sea"
+    ]
+  },
+  {
+    "id": "nautilus_shell",
+    "name": "Раковина наутилуса",
+    "category": "special",
+    "model": "/minecraft/models/nautilus_shell.json",
+    "icon": "/minecraft/textures/item/nautilus_shell.png",
+    "keywords": [
+      "nautilus shell"
+    ]
+  },
+  {
+    "id": "trial_key",
+    "name": "Ключ испытаний",
+    "category": "special",
+    "model": "/minecraft/models/trial_key.json",
+    "icon": "/minecraft/textures/item/trial_key.png",
+    "keywords": [
+      "trial key"
+    ]
+  },
+  {
+    "id": "ominous_trial_key",
+    "name": "Зловещий ключ испытаний",
+    "category": "special",
+    "model": "/minecraft/models/ominous_trial_key.json",
+    "icon": "/minecraft/textures/item/ominous_trial_key.png",
+    "keywords": [
+      "ominous trial key"
+    ]
+  },
+  {
+    "id": "breeze_rod",
+    "name": "Вихревой стержень",
+    "category": "special",
+    "model": "/minecraft/models/breeze_rod.json",
+    "icon": "/minecraft/textures/item/breeze_rod.png",
+    "keywords": [
+      "breeze rod"
+    ]
+  },
+  {
+    "id": "blaze_rod",
+    "name": "Огненный стержень",
+    "category": "special",
+    "model": "/minecraft/models/blaze_rod.json",
+    "icon": "/minecraft/textures/item/blaze_rod.png",
+    "keywords": [
+      "blaze rod"
+    ]
+  },
+  {
+    "id": "blaze_powder",
+    "name": "Огненный порошок",
+    "category": "special",
+    "model": "/minecraft/models/blaze_powder.json",
+    "icon": "/minecraft/textures/item/blaze_powder.png",
+    "keywords": [
+      "blaze powder"
+    ]
+  },
+  {
+    "id": "ghast_tear",
+    "name": "Слеза гаста",
+    "category": "special",
+    "model": "/minecraft/models/ghast_tear.json",
+    "icon": "/minecraft/textures/item/ghast_tear.png",
+    "keywords": [
+      "ghast tear"
+    ]
+  },
+  {
+    "id": "slime_ball",
+    "name": "Сгусток слизи",
+    "category": "special",
+    "model": "/minecraft/models/slime_ball.json",
+    "icon": "/minecraft/textures/item/slime_ball.png",
+    "keywords": [
+      "slime ball"
+    ]
+  },
+  {
+    "id": "magma_cream",
+    "name": "Сгусток магмы",
+    "category": "special",
+    "model": "/minecraft/models/magma_cream.json",
+    "icon": "/minecraft/textures/item/magma_cream.png",
+    "keywords": [
+      "magma cream"
+    ]
+  },
+  {
+    "id": "gunpowder",
+    "name": "Порох",
+    "category": "special",
+    "model": "/minecraft/models/gunpowder.json",
+    "icon": "/minecraft/textures/item/gunpowder.png",
+    "keywords": [
+      "gunpowder"
+    ]
+  },
+  {
+    "id": "glowstone_dust",
+    "name": "Светокаменная пыль",
+    "category": "special",
+    "model": "/minecraft/models/glowstone_dust.json",
+    "icon": "/minecraft/textures/item/glowstone_dust.png",
+    "keywords": [
+      "glowstone dust"
+    ]
+  },
+  {
+    "id": "dragon_breath",
+    "name": "Дыхание дракона",
+    "category": "special",
+    "model": "/minecraft/models/dragon_breath.json",
+    "icon": "/minecraft/textures/item/dragon_breath.png",
+    "keywords": [
+      "dragon breath"
+    ]
+  },
+  {
+    "id": "wind_charge",
+    "name": "Заряд ветра",
+    "category": "special",
+    "model": "/minecraft/models/wind_charge.json",
+    "icon": "/minecraft/textures/item/wind_charge.png",
+    "keywords": [
+      "wind charge"
+    ]
+  },
+  {
+    "id": "end_crystal",
+    "name": "Кристалл Энда",
+    "category": "special",
+    "model": "/minecraft/models/end_crystal.json",
+    "icon": "/minecraft/textures/item/end_crystal.png",
+    "keywords": [
+      "end crystal"
+    ]
+  },
+  {
+    "id": "music_disc_cat",
+    "name": "Пластинка",
+    "category": "special",
+    "model": "/minecraft/models/music_disc_cat.json",
+    "icon": "/minecraft/textures/item/music_disc_cat.png",
+    "keywords": [
+      "music disc cat"
+    ]
+  },
+  {
+    "id": "music_disc_pigstep",
+    "name": "Пластинка",
+    "category": "special",
+    "model": "/minecraft/models/music_disc_pigstep.json",
+    "icon": "/minecraft/textures/item/music_disc_pigstep.png",
+    "keywords": [
+      "music disc pigstep"
+    ]
+  },
+  {
+    "id": "name_tag",
+    "name": "Бирка",
+    "category": "special",
+    "model": "/minecraft/models/name_tag.json",
+    "icon": "/minecraft/textures/item/name_tag.png",
+    "keywords": [
+      "name tag"
+    ]
+  },
+  {
+    "id": "saddle",
+    "name": "Седло",
+    "category": "special",
+    "model": "/minecraft/models/saddle.json",
+    "icon": "/minecraft/textures/item/saddle.png",
+    "keywords": [
+      "saddle"
+    ]
+  },
+  {
+    "id": "lead",
+    "name": "Поводок",
+    "category": "special",
+    "model": "/minecraft/models/lead.json",
+    "icon": "/minecraft/textures/item/lead.png",
+    "keywords": [
+      "lead"
+    ]
+  },
+  {
+    "id": "spyglass",
+    "name": "Подзорная труба",
+    "category": "special",
+    "model": "/minecraft/models/spyglass.json",
+    "icon": "/minecraft/textures/item/spyglass_model.png",
+    "keywords": [
+      "spyglass"
+    ]
+  },
+  {
+    "id": "bundle",
+    "name": "Мешок",
+    "category": "special",
+    "model": "/minecraft/models/bundle.json",
+    "icon": "/minecraft/textures/item/bundle.png",
+    "keywords": [
+      "bundle"
+    ]
+  },
+  {
+    "id": "rabbit_foot",
+    "name": "Кроличья лапка",
+    "category": "special",
+    "model": "/minecraft/models/rabbit_foot.json",
+    "icon": "/minecraft/textures/item/rabbit_foot.png",
+    "keywords": [
+      "rabbit foot"
+    ]
+  },
+  {
+    "id": "rabbit_hide",
+    "name": "Кроличья шкурка",
+    "category": "special",
+    "model": "/minecraft/models/rabbit_hide.json",
+    "icon": "/minecraft/textures/item/rabbit_hide.png",
+    "keywords": [
+      "rabbit hide"
+    ]
+  },
+  {
+    "id": "leather",
+    "name": "Кожа",
+    "category": "special",
+    "model": "/minecraft/models/leather.json",
+    "icon": "/minecraft/textures/item/leather.png",
+    "keywords": [
+      "leather"
+    ]
+  },
+  {
+    "id": "feather",
+    "name": "Перо",
+    "category": "special",
+    "model": "/minecraft/models/feather.json",
+    "icon": "/minecraft/textures/item/feather.png",
+    "keywords": [
+      "feather"
+    ]
+  },
+  {
+    "id": "string",
+    "name": "Нить",
+    "category": "special",
+    "model": "/minecraft/models/string.json",
+    "icon": "/minecraft/textures/item/string.png",
+    "keywords": [
+      "string"
+    ]
+  },
+  {
+    "id": "flint",
+    "name": "Кремень",
+    "category": "special",
+    "model": "/minecraft/models/flint.json",
+    "icon": "/minecraft/textures/item/flint.png",
+    "keywords": [
+      "flint"
+    ]
+  },
+  {
+    "id": "coal",
+    "name": "Уголь",
+    "category": "special",
+    "model": "/minecraft/models/coal.json",
+    "icon": "/minecraft/textures/item/coal.png",
+    "keywords": [
+      "coal"
+    ]
+  },
+  {
+    "id": "charcoal",
+    "name": "Древесный уголь",
+    "category": "special",
+    "model": "/minecraft/models/charcoal.json",
+    "icon": "/minecraft/textures/item/charcoal.png",
+    "keywords": [
+      "charcoal"
+    ]
+  },
+  {
+    "id": "iron_ingot",
+    "name": "Железный слиток",
+    "category": "special",
+    "model": "/minecraft/models/iron_ingot.json",
+    "icon": "/minecraft/textures/item/iron_ingot.png",
+    "keywords": [
+      "iron ingot"
+    ]
+  },
+  {
+    "id": "gold_ingot",
+    "name": "Золотой слиток",
+    "category": "special",
+    "model": "/minecraft/models/gold_ingot.json",
+    "icon": "/minecraft/textures/item/gold_ingot.png",
+    "keywords": [
+      "gold ingot"
+    ]
+  },
+  {
+    "id": "copper_ingot",
+    "name": "Медный слиток",
+    "category": "special",
+    "model": "/minecraft/models/copper_ingot.json",
+    "icon": "/minecraft/textures/item/copper_ingot.png",
+    "keywords": [
+      "copper ingot"
+    ]
+  },
+  {
+    "id": "iron_nugget",
+    "name": "Кусочек железа",
+    "category": "special",
+    "model": "/minecraft/models/iron_nugget.json",
+    "icon": "/minecraft/textures/item/iron_nugget.png",
+    "keywords": [
+      "iron nugget"
+    ]
+  },
+  {
+    "id": "gold_nugget",
+    "name": "Кусочек золота",
+    "category": "special",
+    "model": "/minecraft/models/gold_nugget.json",
+    "icon": "/minecraft/textures/item/gold_nugget.png",
+    "keywords": [
+      "gold nugget"
+    ]
+  },
+  {
+    "id": "raw_iron",
+    "name": "Рудное железо",
+    "category": "special",
+    "model": "/minecraft/models/raw_iron.json",
+    "icon": "/minecraft/textures/item/raw_iron.png",
+    "keywords": [
+      "raw iron"
+    ]
+  },
+  {
+    "id": "raw_gold",
+    "name": "Рудное золото",
+    "category": "special",
+    "model": "/minecraft/models/raw_gold.json",
+    "icon": "/minecraft/textures/item/raw_gold.png",
+    "keywords": [
+      "raw gold"
+    ]
+  },
+  {
+    "id": "raw_copper",
+    "name": "Рудная медь",
+    "category": "special",
+    "model": "/minecraft/models/raw_copper.json",
+    "icon": "/minecraft/textures/item/raw_copper.png",
+    "keywords": [
+      "raw copper"
+    ]
+  },
+  {
+    "id": "bone",
+    "name": "Кость",
+    "category": "special",
+    "model": "/minecraft/models/bone.json",
+    "icon": "/minecraft/textures/item/bone.png",
+    "keywords": [
+      "bone"
+    ]
+  },
+  {
+    "id": "bone_meal",
+    "name": "Костная мука",
+    "category": "special",
+    "model": "/minecraft/models/bone_meal.json",
+    "icon": "/minecraft/textures/item/bone_meal.png",
+    "keywords": [
+      "bone meal"
+    ]
+  },
+  {
+    "id": "snowball",
+    "name": "Снежок",
+    "category": "special",
+    "model": "/minecraft/models/snowball.json",
+    "icon": "/minecraft/textures/item/snowball.png",
+    "keywords": [
+      "snowball"
+    ]
+  }
+]

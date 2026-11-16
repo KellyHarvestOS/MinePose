@@ -1,0 +1,9 @@
+Minecraft Java Edition 1.21.5
+Models, item definitions and textures extracted from the official Mojang client archive.
+Russian names from the official ru_ru.json language asset, downloaded through the version's Mojang asset index.
+Copyright Mojang AB / Microsoft.
+Source: https://piston-data.mojang.com/v1/objects/b88808bbb3da8d9f453694b5d8f74a3396f1a533/client.jar
+SHA-1: b88808bbb3da8d9f453694b5d8f74a3396f1a533
+The archive is read only as ZIP data, never executed or distributed by this project.
+Model parent chains and texture references are resolved by scripts/extract-minecraft-items.mjs.
+Special entity models use the original shield, trident and chest atlases.
