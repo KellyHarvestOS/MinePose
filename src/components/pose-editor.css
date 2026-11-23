@@ -80,6 +80,8 @@
 .pe-axis-row>input[type=range],.pe-full-range{appearance:none;height:3px;border-radius:0;flex:1;min-width:0;background:#3d3842;cursor:pointer;accent-color:var(--pe-accent)}
 .pe-axis-row>input[type=range]::-webkit-slider-thumb,.pe-full-range::-webkit-slider-thumb{appearance:none;width:10px;height:13px;border-radius:1px;background:var(--pe-accent);box-shadow:0 0 0 3px #c395ff10}
 .pe-axis-row>input[type=range]::-moz-range-thumb,.pe-full-range::-moz-range-thumb{width:10px;height:13px;border:0;border-radius:1px;background:var(--pe-accent)}
+.pe-offset-row{margin-top:11px}
+.pe-offset-value{width:39px;text-align:right;color:#bbb2c5;font-family:monospace;font-size:10px;font-variant-numeric:tabular-nums}
 .pe-degree-input{display:flex;width:50px;align-items:center;border:1px solid #37333b;background:#141318;border-radius:2px;padding:5px 5px 5px 0;color:#797082}
 .pe-degree-input>input{width:35px;appearance:textfield;-moz-appearance:textfield;background:transparent;border:0;outline:none;color:#ccc8cf;font-family:monospace;font-size:10px;text-align:center;padding:0}
 .pe-degree-input input::-webkit-inner-spin-button,.pe-degree-input input::-webkit-outer-spin-button{appearance:none;margin:0}

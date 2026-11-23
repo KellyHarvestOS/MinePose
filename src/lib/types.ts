@@ -14,6 +14,7 @@ export type SceneSettings = {
   items?: EquippedItems;
   modelPosition?: Rotation;
   modelRotation?: Rotation;
+  partOffsets?: Partial<Record<BodyPart, Rotation>>;
   previewCamera?: { azimuth: number; elevation: number };
 };
 // Kept only to read and back up projects saved before thumbnail editing was removed.
@@ -47,7 +48,7 @@ export const DEFAULT_POSE: Pose = {
   rightLeg: { x: 0, y: 0, z: 0 }
 };
 export const DEFAULT_SCENE: SceneSettings = {
-  background: "#21192d", floor: true, grid: true,
+  background: "#21192d", floor: true, grid: true, partOffsets: {},
   light: 1.5, skin: "", slim: false, sword: false
 };
 export { PRESETS } from "./pose-presets";

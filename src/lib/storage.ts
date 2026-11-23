@@ -28,6 +28,19 @@ export function parseProject(value: unknown): Project {
     if (!vector || typeof vector !== "object" || Array.isArray(vector) || ["x", "y", "z"].some(axis => typeof vector[axis] !== "number" || !Number.isFinite(vector[axis]) || Math.abs(vector[axis] as number) > (field === "modelPosition" ? 32 : 360))) throw new Error("Некорректное положение персонажа в проекте");
     scene[field] = { x: vector.x as number, y: vector.y as number, z: vector.z as number };
   }
+  if (source.partOffsets !== undefined) {
+    const offsets = source.partOffsets as Record<string, unknown>;
+    if (!offsets || typeof offsets !== "object" || Array.isArray(offsets)) throw new Error("Некорректное смещение частей тела в проекте");
+    const partOffsets: Partial<Record<BodyPart, { x: number; y: number; z: number }>> = {};
+    for (const part of parts) {
+      const value = offsets[part];
+      if (value === undefined) continue;
+      const vector = value as Record<string, unknown>;
+      if (!vector || typeof vector !== "object" || Array.isArray(vector) || ["x", "y", "z"].some(axis => typeof vector[axis] !== "number" || !Number.isFinite(vector[axis]) || Math.abs(vector[axis] as number) > 2)) throw new Error("Некорректное смещение части тела в проекте");
+      partOffsets[part] = { x: vector.x as number, y: vector.y as number, z: vector.z as number };
+    }
+    scene.partOffsets = partOffsets;
+  }
   if (source.previewCamera !== undefined) {
     const camera = source.previewCamera as Record<string, unknown>;
     if (!camera || typeof camera !== "object" || typeof camera.azimuth !== "number" || !Number.isFinite(camera.azimuth) || Math.abs(camera.azimuth) > 360 || typeof camera.elevation !== "number" || !Number.isFinite(camera.elevation) || Math.abs(camera.elevation) > 85) throw new Error("Некорректный ракурс персонажа в проекте");

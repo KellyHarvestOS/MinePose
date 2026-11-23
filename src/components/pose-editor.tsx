@@ -90,7 +90,7 @@ export default function PoseEditor({ project, onSave, onBack, onNotify, onCharac
     const preset = PRESETS.find(value => value.id === presetId);
     if (!preset) return;
     endGesture();
-    update(current => ({ ...current, pose: clone(preset.pose), scene: { ...current.scene, items: clone(preset.items), sword: false, modelPosition: clone(preset.position), modelRotation: clone(preset.rotation), previewCamera: preset.camera ? { ...preset.camera } : undefined } }));
+    update(current => ({ ...current, pose: clone(preset.pose), scene: { ...current.scene, items: clone(preset.items), sword: false, modelPosition: clone(preset.position), modelRotation: clone(preset.rotation), partOffsets: {}, previewCamera: preset.camera ? { ...preset.camera } : undefined } }));
     setFitKey(value => value + 1);
   }
   function setModelVector(field: "modelPosition" | "modelRotation", axis: "x" | "y" | "z", value: number, record = true) {
@@ -100,6 +100,11 @@ export default function PoseEditor({ project, onSave, onBack, onNotify, onCharac
   }
   function setRotation(axis: "x" | "y" | "z", value: number, record = true) {
     update(current => ({ ...current, pose: { ...current.pose, [part]: { ...current.pose[part], [axis]: value } } }), record);
+  }
+  function setPartOffset(axis: "x" | "y" | "z", value: number, record = true) {
+    if (!Number.isFinite(value)) return;
+    const offset = Math.max(-0.75, Math.min(0.75, value));
+    update(current => ({ ...current, scene: { ...current.scene, partOffsets: { ...current.scene.partOffsets, [part]: { x: 0, y: 0, z: 0, ...current.scene.partOffsets?.[part], [axis]: offset } } } }), record);
   }
   function save() {
     endGesture();
@@ -200,9 +205,12 @@ export default function PoseEditor({ project, onSave, onBack, onNotify, onCharac
               <div className="pe-template-select"><div className="pe-select-wrap"><select aria-label="Готовая поза" value={presetId} onChange={event => setPresetId(event.target.value)}>{PRESETS.map(preset => <option key={preset.id} value={preset.id}>{preset.name}</option>)}</select><ChevronDown size={14} /></div><button className="pe-button" onClick={applyPreset}>Применить шаблон</button></div>
             </section>
             <section className="pe-section">
-              <div className="pe-section-title"><span><SlidersHorizontal size={15} />Положение тела</span><button className="pe-small-button" onClick={() => { update(current => ({ ...current, pose: clone(DEFAULT_POSE), scene: { ...current.scene, modelPosition: { x: 0, y: 0, z: 0 }, modelRotation: { x: 0, y: 0, z: 0 } } })); setFitKey(value => value + 1); }}>Сбросить всё</button></div>
+              <div className="pe-section-title"><span><SlidersHorizontal size={15} />Положение тела</span><button className="pe-small-button" onClick={() => { update(current => ({ ...current, pose: clone(DEFAULT_POSE), scene: { ...current.scene, partOffsets: {}, modelPosition: { x: 0, y: 0, z: 0 }, modelRotation: { x: 0, y: 0, z: 0 } } })); setFitKey(value => value + 1); }}>Сбросить всё</button></div>
               <label className="pe-label" htmlFor="pe-part-select">ЧАСТЬ ТЕЛА</label>
               <div className="pe-select-wrap"><select id="pe-part-select" value={part} onChange={event => setPart(event.target.value as BodyPart)}>{PARTS.map(item => <option key={item.id} value={item.id}>{item.name}</option>)}</select><ChevronDown size={14} /></div>
+              <div className="pe-rotation-heading"><span>Смещение от центра</span><button className="pe-small-button" onClick={() => { endGesture(); update(current => ({ ...current, scene: { ...current.scene, partOffsets: { ...current.scene.partOffsets, [part]: { x: 0, y: 0, z: 0 } } } })); }} title="Сбросить смещение по X, Y и Z"><RotateCcw size={13} />Сбросить</button></div>
+              {(["x", "y", "z"] as const).map(axis => { const value = draft.scene.partOffsets?.[part]?.[axis] ?? 0; return <div className="pe-axis-row pe-offset-row" key={`offset-${axis}`}><label htmlFor={`pe-offset-${axis}`} className={`pe-axis-label pe-axis-${axis}`}>{axis.toUpperCase()}</label><input id={`pe-offset-${axis}`} aria-label={`Смещение ${currentPart.name}: ${axis.toUpperCase()}, в единицах модели`} aria-valuetext={`${value.toFixed(2)} единицы`} type="range" min={-0.75} max={0.75} step={0.01} value={value} onPointerDown={startGesture} onPointerUp={endGesture} onPointerCancel={endGesture} onKeyDown={startGesture} onKeyUp={endGesture} onBlur={endGesture} onChange={event => { if (!gesture.current) startGesture(); setPartOffset(axis, Number(event.target.value), false); }} /><span className="pe-offset-value">{value > 0 ? "+" : ""}{value.toFixed(2)}</span></div>; })}
+              <div className="pe-hint"><span className="pe-hint-dot" />{part === "leftArm" || part === "leftLeg" ? "X: + от корпуса, − к корпусу." : part === "rightArm" || part === "rightLeg" ? "X: − от корпуса, + к корпусу." : part === "head" ? "Y: + вверх, − к корпусу." : "Сдвигай корпус по X, Y и Z."} Z перемещает часть вперёд или назад.</div>
               <div className="pe-rotation-heading"><span>Вращение</span><button className="pe-small-button" onClick={() => update(current => ({ ...current, pose: { ...current.pose, [part]: clone(DEFAULT_POSE[part]) } }))} title="Сбросить вращение части тела"><RotateCcw size={13} />Сбросить</button></div>
               {(["x", "y", "z"] as const).map(axis => <div className="pe-axis-row" key={axis}><label htmlFor={`pe-axis-${axis}`} className={`pe-axis-label pe-axis-${axis}`}>{axis.toUpperCase()}</label><input id={`pe-axis-${axis}`} aria-label={`Вращение ${currentPart.name}: ${axis.toUpperCase()}`} type="range" min={-180} max={180} step={1} value={draft.pose[part][axis]} onPointerDown={startGesture} onPointerUp={endGesture} onPointerCancel={endGesture} onKeyDown={startGesture} onKeyUp={endGesture} onBlur={endGesture} onChange={event => { if (!gesture.current) startGesture(); setRotation(axis, Number(event.target.value), false); }} /><div className="pe-degree-input"><input aria-label={`Угол ${axis.toUpperCase()} в градусах`} type="number" min={-180} max={180} value={draft.pose[part][axis]} onChange={event => setRotation(axis, Math.max(-180, Math.min(180, Number(event.target.value))))} /><span>°</span></div></div>)}
               <div className="pe-hint"><span className="pe-hint-dot" />Можно выбрать часть тела прямо на модели.</div>

@@ -207,6 +207,7 @@ export function createPlayer(texture: THREE.Texture, slim: boolean, legacy: bool
   for (const def of definitions) {
     const part = def.id === "body" ? torso : new THREE.Group();
     if (def.id !== "body") { part.position.fromArray(def.position); def.parent.add(part); parts[def.id] = part; }
+    part.userData.basePosition = part.position.clone();
     const material = new THREE.MeshStandardMaterial({ map: texture, roughness: 0.85, alphaTest: 0.1 });
     const geometry = skinGeometry(def.w, def.h, def.d, def.uv[0], def.uv[1]);
     const mesh = new THREE.Mesh(geometry, material); mesh.position.fromArray(def.center);
@@ -240,6 +241,7 @@ function prepareAvatar(player: ReturnType<typeof createPlayer>, shot?: AvatarSho
       leg.position.y = 0.95; leg.scale.y = 0.63;
     }
   }
+  for (const part of Object.values(player.parts)) part.userData.basePosition.copy(part.position);
 }
 
 function frameCamera(camera: THREE.PerspectiveCamera, controls: OrbitControls, hero: boolean, avatar?: AvatarShot) {

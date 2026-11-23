@@ -16,6 +16,9 @@ export function applyRigPose(model: THREE.Group, parts: Record<BodyPart, THREE.G
   for (const id of Object.keys(parts) as BodyPart[]) {
     const rotation = pose[id];
     parts[id].rotation.set(THREE.MathUtils.degToRad(rotation.x), THREE.MathUtils.degToRad(rotation.y), THREE.MathUtils.degToRad(rotation.z));
+    const base = parts[id].userData.basePosition as THREE.Vector3 | undefined;
+    const offset = settings.partOffsets?.[id];
+    if (base) parts[id].position.set(base.x + (offset?.x || 0), base.y + (offset?.y || 0), base.z + (offset?.z || 0));
   }
   const position = settings.modelPosition || { x: 0, y: 0, z: 0 };
   const rotation = settings.modelRotation || { x: 0, y: 0, z: 0 };
