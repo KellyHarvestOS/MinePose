@@ -166,7 +166,7 @@ export const PRESETS: PosePreset[] = [
 
 export function presetScene(preset: PosePreset, skin = "", slim = false): SceneSettings {
   return {
-    background: "#21192d", floor: true, grid: false, light: 1.3, skin, slim, sword: false,
+    background: "#21192d", floor: true, grid: false, shadows: true, light: 1.3, skin, slim, sword: false,
     items: structuredClone(preset.items), modelPosition: { ...preset.position }, modelRotation: { ...preset.rotation },
     previewCamera: preset.camera ? { ...preset.camera } : undefined,
   };

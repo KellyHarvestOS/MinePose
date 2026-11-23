@@ -229,6 +229,7 @@ export default function PoseEditor({ project, onSave, onBack, onNotify, onCharac
               <div className="pe-swatches">{BACKGROUNDS.map(color => <button key={color} className={draft.scene.background.toLowerCase() === color.toLowerCase() ? "is-selected" : ""} style={{ backgroundColor: color }} aria-label={`Фон ${color}`} onClick={() => changeSettings({ background: color })}>{draft.scene.background.toLowerCase() === color.toLowerCase() && <Check size={14} />}</button>)}<label className="pe-custom-color" title="Свой цвет"><span>+</span><input aria-label="Свой цвет фона" type="color" value={draft.scene.background} onChange={event => changeSettings({ background: event.target.value })} /></label></div>
               <Toggle label="Пол" hint="Плоскость под персонажем" value={draft.scene.floor} onChange={() => changeSettings({ floor: !draft.scene.floor })} />
               <Toggle label="Сетка" hint="Ориентир в пространстве" value={draft.scene.grid} onChange={() => changeSettings({ grid: !draft.scene.grid })} />
+              <Toggle label="Тени" hint="Тени от персонажа и предметов" value={draft.scene.shadows} onChange={() => changeSettings({ shadows: !draft.scene.shadows })} />
             </section>
             <section className="pe-section">
               <div className="pe-section-title"><span><Sparkles size={15} />Освещение</span><span className="pe-tiny-badge">{draft.scene.light.toFixed(1)}×</span></div>

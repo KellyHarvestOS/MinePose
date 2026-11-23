@@ -7,6 +7,7 @@ export type SceneSettings = {
   background: string;
   floor: boolean;
   grid: boolean;
+  shadows: boolean;
   light: number;
   skin: string;
   slim: boolean;
@@ -48,7 +49,7 @@ export const DEFAULT_POSE: Pose = {
   rightLeg: { x: 0, y: 0, z: 0 }
 };
 export const DEFAULT_SCENE: SceneSettings = {
-  background: "#21192d", floor: true, grid: true, partOffsets: {},
+  background: "#21192d", floor: true, grid: true, shadows: true, partOffsets: {},
   light: 1.5, skin: "", slim: false, sword: false
 };
 export { PRESETS } from "./pose-presets";

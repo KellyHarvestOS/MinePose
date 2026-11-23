@@ -16,7 +16,7 @@ export function parseProject(value: unknown): Project {
   }
   const source = p.scene as Record<string, unknown>;
   const scene = { ...DEFAULT_SCENE };
-  for (const field of ["floor", "grid", "slim", "sword"] as const) if (typeof source[field] === "boolean") scene[field] = source[field];
+  for (const field of ["floor", "grid", "shadows", "slim", "sword"] as const) if (typeof source[field] === "boolean") scene[field] = source[field];
   scene.items = parseEquippedItems(source.items, scene.sword);
   scene.sword = false;
   if (typeof source.background === "string" && (/^#[0-9a-f]{6}$/i.test(source.background) || source.background === "transparent")) scene.background = source.background;

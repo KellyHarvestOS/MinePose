@@ -408,6 +408,8 @@ const MinecraftScene = forwardRef<MinecraftSceneHandle, Props>(function Minecraf
     });
     s.sword.visible = current.avatar || current.settings.items ? false : Boolean(current.settings.sword || hero);
     syncItems(s);
+    s.renderer.shadowMap.enabled = current.settings.shadows;
+    s.keyLight.castShadow = current.settings.shadows;
     s.floor.visible = current.settings.floor && !hero;
     s.grid.visible = current.settings.grid && !hero;
     s.keyLight.intensity = Math.max(0.1, current.settings.light || 1.5) * 2;
